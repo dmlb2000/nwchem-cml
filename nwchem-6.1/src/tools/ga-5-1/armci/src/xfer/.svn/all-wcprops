@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hpctools/!svn/ver/9813/branches/ga-5-1/armci/src/xfer
+END
+strided.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9793/branches/ga-5-1/armci/src/xfer/strided.c
+END
+vector.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/xfer/vector.c
+END
+rmw.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/xfer/rmw.c
+END
+caccumulate.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/xfer/caccumulate.c
+END
+faccumulate.f
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9813/branches/ga-5-1/armci/src/xfer/faccumulate.f
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/compat
+END
+random.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/compat/random.c
+END
+strdup.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/compat/strdup.c
+END
+strtok.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/compat/strtok.c
+END
+malloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/compat/malloc.c
+END
+memalign.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/compat/memalign.c
+END
+dummy.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/compat/dummy.c
+END

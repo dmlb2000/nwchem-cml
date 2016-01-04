@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/global/examples/conjugate_gradient
+END
+finclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/global/examples/conjugate_gradient/finclude.h
+END
+ga_cg.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/global/examples/conjugate_gradient/ga_cg.c
+END
+read_input.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/global/examples/conjugate_gradient/read_input.c
+END
+computeloops.F
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/global/examples/conjugate_gradient/computeloops.F
+END
+matvecmul.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/global/examples/conjugate_gradient/matvecmul.c
+END

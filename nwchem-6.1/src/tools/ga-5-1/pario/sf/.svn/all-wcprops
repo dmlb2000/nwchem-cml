@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf
+END
+test.F
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf/test.F
+END
+sf.fh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf/sf.fh
+END
+sf_fortran.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf/sf_fortran.c
+END
+sf_capi.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf/sf_capi.c
+END
+coms.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf/coms.h
+END
+shared.files.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf/shared.files.c
+END
+sff2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf/sff2c.h
+END
+SF.doc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf/SF.doc
+END
+sf.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/sf/sf.h
+END

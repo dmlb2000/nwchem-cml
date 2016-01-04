@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/hpctools/!svn/ver/6388/branches/ga-4-3/tcgmsg
+END
+makep.proto
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/makep.proto
+END
+tcgmsg.fh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/tcgmsg.fh
+END
+port.csh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/port.csh
+END
+tcgmsg_vampir.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/tcgmsg_vampir.c
+END
+port
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/port
+END
+port.awk
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/port.awk
+END
+farg.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/farg.h
+END
+ANNOUNCE
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/ANNOUNCE
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/6388/branches/ga-4-3/tcgmsg/GNUmakefile
+END
+sendshar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/sendshar
+END
+tcgmsg_vampir.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/tcgmsg_vampir.h
+END
+Makefile.tcg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/Makefile.tcg
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/tcgmsg/README
+END

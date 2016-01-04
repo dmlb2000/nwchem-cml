@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/mpi-mt
+END
+mpi2_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/mpi-mt/mpi2_client.c
+END
+mpi2.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/mpi-mt/mpi2.h
+END
+mpi2_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/mpi-mt/mpi2_server.c
+END

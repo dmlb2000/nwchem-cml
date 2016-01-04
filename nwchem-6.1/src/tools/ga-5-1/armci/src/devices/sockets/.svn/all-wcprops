@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/sockets
+END
+sockets.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/sockets/sockets.h
+END
+dataserv.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/sockets/dataserv.c
+END
+sockets.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/sockets/sockets.c
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9793/branches/ga-5-1/armci/src/devices/openib
+END
+cbuf.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/openib/cbuf.c
+END
+rtinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/openib/rtinfo.c
+END
+cbuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/openib/cbuf.h
+END
+pendbufs.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/openib/pendbufs.c
+END
+pendbufs.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/openib/pendbufs.h
+END
+openib.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9793/branches/ga-5-1/armci/src/devices/openib/openib.c
+END
+armci-vapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/openib/armci-vapi.h
+END

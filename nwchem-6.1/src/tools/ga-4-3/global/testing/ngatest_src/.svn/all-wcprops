@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src
+END
+ndim_NGA_PERIODIC_GET.src
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_PERIODIC_GET.src
+END
+ndim_main.src
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/testing/ngatest_src/ndim_main.src
+END
+ndim_util_comm.src
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_util_comm.src
+END
+ndim_NGA_PERIODIC_ACC.src
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_PERIODIC_ACC.src
+END
+ndim_NGA_DOT_PATCH.src
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_DOT_PATCH.src
+END
+ndim_NGA_FILL_PATCH.src
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_FILL_PATCH.src
+END
+ndim_NGA_SCATTER.src
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_SCATTER.src
+END
+ndim_NGA_SCALE_PATCH.src
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_SCALE_PATCH.src
+END
+ndim_NGA_ADD_PATCH.src
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_ADD_PATCH.src
+END
+ndim_GA_FILL.src
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/testing/ngatest_src/ndim_GA_FILL.src
+END
+ndim_NGA_PUT.src
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_PUT.src
+END
+ndim_NGA_GATHER.src
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_GATHER.src
+END
+ndim_NGA_SCATTER_ACC.src
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_SCATTER_ACC.src
+END
+ndim_NGA_GET.src
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_GET.src
+END
+ngatest.def
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ngatest.def
+END
+ndim_NGA_PERIODIC_PUT.src
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_PERIODIC_PUT.src
+END
+ndim_NGA_ACC.src
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_ACC.src
+END
+ndim_util.src
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/hpctools/!svn/ver/6230/branches/ga-4-3/global/testing/ngatest_src/ndim_util.src
+END
+ndim_NGA_COPY_PATCH.src
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/testing/ngatest_src/ndim_NGA_COPY_PATCH.src
+END

@@ -1,0 +1,950 @@
+test -d /home/bert/nwchem-6.1/lib/LINUX64 || mkdir -p /home/bert/nwchem-6.1/lib/LINUX64
+test -d /home/bert/nwchem-6.1/bin/LINUX64 || mkdir -p /home/bert/nwchem-6.1/bin/LINUX64
+Making libraries in tools
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[1]: `install/lib/libga.a' is up to date.
+Making libraries in include
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+for dir in tools include basis geom inp input pstat rtdb task symmetry util peigs perfm bq cons blas lapack NWints atomscf ddscf gradients moints nwdft rimp2 stepper driver optim cphf ccsd vib mcscf prepar esp hessian selci dplot mp2_grad qhop property nwpw fft analyz nwmd cafe space drdy vscf qmmm qmd etrans tce bq cons perfm dntmc dangchang ccca; do \
+		echo Making include_stamp in /home/bert/nwchem-6.1/src/$dir ; \
+		(cd /home/bert/nwchem-6.1/src/$dir; make include_stamp) ; \
+	done
+Making include_stamp in /home/bert/nwchem-6.1/src/tools
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: *** No rule to make target `include_stamp'.  Stop.
+Making include_stamp in /home/bert/nwchem-6.1/src/include
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Nothing to be done
+Making include_stamp in /home/bert/nwchem-6.1/src/basis
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/geom
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/inp
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/input
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/pstat
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/rtdb
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/task
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/symmetry
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/util
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/peigs
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/perfm
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/bq
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/cons
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/blas
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/lapack
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/NWints
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/atomscf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/ddscf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/gradients
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/moints
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/nwdft
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/rimp2
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/stepper
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/driver
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/optim
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/cphf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/ccsd
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/vib
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/mcscf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/prepar
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/esp
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/hessian
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/selci
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/dplot
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/mp2_grad
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/qhop
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/property
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/nwpw
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/fft
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/analyz
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/nwmd
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/cafe
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/space
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/drdy
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/vscf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/qmmm
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/qmd
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/etrans
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/tce
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/bq
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/cons
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/perfm
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/dntmc
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/dangchang
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/bert/nwchem-6.1/src/ccca
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making libraries in basis
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in geom
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_input.F
+geom_input.F: In function ‘geom_update_cart_from_int’:
+geom_input.F:6366: warning: ‘xmax1’ may be used uninitialized in this function
+geom_input.F:6366: warning: ‘err1’ may be used uninitialized in this function
+geom_input.F: In function ‘hnd_molgrp’:
+geom_input.F:5862: warning: ‘ii’ may be used uninitialized in this function
+geom_input.F:5841: warning: ‘alph’ may be used uninitialized in this function
+geom_input.F: In function ‘hnd_molops’:
+geom_input.F:4000: warning: ‘linear’ may be used uninitialized in this function
+geom_input.F:3999: warning: ‘atomic’ may be used uninitialized in this function
+geom_input.F:4252: warning: ‘j’ may be used uninitialized in this function
+geom_input.F:4275: warning: ‘jaxis’ may be used uninitialized in this function
+geom_input.F:4667: warning: ‘k’ may be used uninitialized in this function
+geom_input.F: In function ‘geom_lst_get_coord’:
+geom_input.F:3669: warning: ‘__result_geom_lst_get_coord’ may be used uninitialized in this function
+geom_input.F: In function ‘geom_zmat_to_cart’:
+geom_input.F:2392: warning: ‘orient’ may be used uninitialized in this function
+geom_input.F:2392: warning: ‘l’ may be used uninitialized in this function
+geom_input.F:2395: warning: ‘aijl’ may be used uninitialized in this function
+geom_input.F:2393: warning: ‘aijkl’ may be used uninitialized in this function
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_input2.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_3d.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_2d.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_1d.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_numcore.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_checksum.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_print_ecce.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_freeze.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_fragment.F
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_getsym.F
+geom_getsym.F: In function ‘geom_getsym0’:
+geom_getsym.F:25: warning: ‘ncenter_before_auto’ may be used uninitialized in this function
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+gfortran -c -fdefault-integer-8 -Wextra -Wuninitialized  -O3  -mfpmath=sse -ffast-math -fprefetch-loop-arrays  -march=nocona -mtune=nocona -I.  -I/home/bert/nwchem-6.1/src/include -I/home/bert/nwchem-6.1/src/tools/install/include  -I/home/bert/FoX-Dev/objs/finclude -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG   geom_hnd.F
+ In file geom_hnd.F:518
+
+      IF (ONE- ABS(DOTJ)) 200,200,140                                   
+                                                                       1
+Warning: Obsolete: arithmetic IF statement at (1)
+ In file geom_hnd.F:608
+
+      IF (ONE- ABS(DOTPJ)) 320,340,240                                  
+                                                                       1
+Warning: Obsolete: arithmetic IF statement at (1)
+ In file geom_hnd.F:611
+
+      IF (ONE- ABS(DOTPK)) 360,380,260                                  
+                                                                       1
+Warning: Obsolete: arithmetic IF statement at (1)
+ In file geom_hnd.F:735
+
+      IF (ONE- ABS(DOTI)) 240,240,160                                   
+                                                                       1
+Warning: Obsolete: arithmetic IF statement at (1)
+ In file geom_hnd.F:739
+
+      IF (ONE- ABS(SINT)) 260,260,180                                   
+                                                                       1
+Warning: Obsolete: arithmetic IF statement at (1)
+ In file geom_hnd.F:837
+
+      IF (PT0001- ABS(TEST)) 280,180,180                                
+                                                                       1
+Warning: Obsolete: arithmetic IF statement at (1)
+ In file geom_hnd.F:840
+
+      IF (PT0001- ABS(TEST)) 200,300,300                                
+                                                                       1
+Warning: Obsolete: arithmetic IF statement at (1)
+ In file geom_print_ecce.F:62
+
+      end                                                               
+     1
+Error: END IF statement expected at (1)
+ In file geom_print_ecce.F:64
+
+      subroutine ecce_do_print(string,matrix,ld,l1,l2)                  
+     1
+Error: Unclassifiable statement at (1)
+ In file geom_print_ecce.F:65
+
+      use ecce_print_m                                                  
+                                                                       1
+Error: Unexpected USE statement at (1)
+ In file geom_print_ecce.F:66
+
+      implicit none                                                     
+                                                                       1
+Error: Unexpected IMPLICIT NONE statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:30
+
+     Included at geom_print_ecce.F:68
+
+      integer    MT_BYTE      ! byte                                    
+                       1
+Error: Symbol 'mt_byte' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:31
+
+     Included at geom_print_ecce.F:68
+
+      integer    MT_INT       ! integer                                 
+                      1
+Error: Symbol 'mt_int' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:32
+
+     Included at geom_print_ecce.F:68
+
+      integer    MT_LOG       ! logical                                 
+                      1
+Error: Symbol 'mt_log' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:33
+
+     Included at geom_print_ecce.F:68
+
+      integer    MT_REAL      ! real                                    
+                       1
+Error: Symbol 'mt_real' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:34
+
+     Included at geom_print_ecce.F:68
+
+      integer    MT_DBL       ! double precision                        
+                      1
+Error: Symbol 'mt_dbl' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:35
+
+     Included at geom_print_ecce.F:68
+
+      integer    MT_SCPL      ! single precision complex                
+                       1
+Error: Symbol 'mt_scpl' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:36
+
+     Included at geom_print_ecce.F:68
+
+      integer    MT_DCPL      ! double precision complex                
+                       1
+Error: Symbol 'mt_dcpl' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:38
+
+     Included at geom_print_ecce.F:68
+
+      integer    MT_F_FIRST   ! first type                              
+                          1
+Error: Symbol 'mt_f_first' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:39
+
+     Included at geom_print_ecce.F:68
+
+      integer    MT_F_LAST    ! last type                               
+                         1
+Error: Symbol 'mt_f_last' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:42
+
+     Included at geom_print_ecce.F:68
+
+      parameter    (MT_BYTE = (1000 + 9))                               
+                                       1
+Error: PARAMETER attribute conflicts with PARAMETER attribute at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:43
+
+     Included at geom_print_ecce.F:68
+
+      parameter    (MT_INT = (1000 + 10))                               
+                                       1
+Error: PARAMETER attribute conflicts with PARAMETER attribute at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:44
+
+     Included at geom_print_ecce.F:68
+
+      parameter    (MT_LOG = (1000 + 11))                               
+                                       1
+Error: PARAMETER attribute conflicts with PARAMETER attribute at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:45
+
+     Included at geom_print_ecce.F:68
+
+      parameter    (MT_REAL = (1000 + 12))                              
+                                        1
+Error: PARAMETER attribute conflicts with PARAMETER attribute at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:46
+
+     Included at geom_print_ecce.F:68
+
+      parameter    (MT_DBL = (1000 + 13))                               
+                                       1
+Error: PARAMETER attribute conflicts with PARAMETER attribute at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:47
+
+     Included at geom_print_ecce.F:68
+
+      parameter    (MT_SCPL = (1000 + 14))                              
+                                        1
+Error: PARAMETER attribute conflicts with PARAMETER attribute at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:48
+
+     Included at geom_print_ecce.F:68
+
+      parameter    (MT_DCPL = (1000 + 15))                              
+                                        1
+Error: PARAMETER attribute conflicts with PARAMETER attribute at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:50
+
+     Included at geom_print_ecce.F:68
+
+      parameter    (MT_F_FIRST = MT_BYTE)                               
+                                       1
+Error: PARAMETER attribute conflicts with PARAMETER attribute at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:51
+
+     Included at geom_print_ecce.F:68
+
+      parameter    (MT_F_LAST = MT_DCPL)                                
+                                      1
+Error: PARAMETER attribute conflicts with PARAMETER attribute at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:58
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_alloc_get                                              
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:59
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_allocate_heap                                          
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:60
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_chop_stack                                             
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:61
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_free_heap                                              
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:62
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_free_heap_piece                                        
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:63
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_get_index                                              
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:64
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_get_next_memhandle                                     
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:65
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_get_numalign                                           
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:66
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_init                                                   
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:67
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_initialized                                            
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:68
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_init_memhandle_iterator                                
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:69
+
+     Included at geom_print_ecce.F:68
+
+      integer MA_inquire_avail                                          
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:70
+
+     Included at geom_print_ecce.F:68
+
+      integer MA_inquire_heap                                           
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:71
+
+     Included at geom_print_ecce.F:68
+
+      integer MA_inquire_heap_check_stack                               
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:72
+
+     Included at geom_print_ecce.F:68
+
+      integer MA_inquire_heap_no_partition                              
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:73
+
+     Included at geom_print_ecce.F:68
+
+      integer MA_inquire_stack                                          
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:74
+
+     Included at geom_print_ecce.F:68
+
+      integer MA_inquire_stack_check_heap                               
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:75
+
+     Included at geom_print_ecce.F:68
+
+      integer MA_inquire_stack_no_partition                             
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:76
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_pop_stack                                              
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:78
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_push_get                                               
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:79
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_push_stack                                             
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:80
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_set_auto_verify                                        
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:81
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_set_error_print                                        
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:82
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_set_hard_fail                                          
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:83
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_set_numalign                                           
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:84
+
+     Included at geom_print_ecce.F:68
+
+      integer MA_sizeof                                                 
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:85
+
+     Included at geom_print_ecce.F:68
+
+      integer MA_sizeof_overhead                                        
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:88
+
+     Included at geom_print_ecce.F:68
+
+      logical MA_verify_allocator_stuff                                 
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:90
+
+     Included at geom_print_ecce.F:68
+
+      external MA_alloc_get                                             
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:91
+
+     Included at geom_print_ecce.F:68
+
+      external MA_allocate_heap                                         
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:92
+
+     Included at geom_print_ecce.F:68
+
+      external MA_chop_stack                                            
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:93
+
+     Included at geom_print_ecce.F:68
+
+      external MA_free_heap                                             
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:94
+
+     Included at geom_print_ecce.F:68
+
+      external MA_free_heap_piece                                       
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:95
+
+     Included at geom_print_ecce.F:68
+
+      external MA_get_index                                             
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:96
+
+     Included at geom_print_ecce.F:68
+
+      external MA_get_next_memhandle                                    
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:97
+
+     Included at geom_print_ecce.F:68
+
+      external MA_get_numalign                                          
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:98
+
+     Included at geom_print_ecce.F:68
+
+      external MA_init                                                  
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:99
+
+     Included at geom_print_ecce.F:68
+
+      external MA_initialized                                           
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:100
+
+     Included at geom_print_ecce.F:68
+
+      external MA_init_memhandle_iterator                               
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:101
+
+     Included at geom_print_ecce.F:68
+
+      external MA_inquire_avail                                         
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:102
+
+     Included at geom_print_ecce.F:68
+
+      external MA_inquire_heap                                          
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:103
+
+     Included at geom_print_ecce.F:68
+
+      external MA_inquire_heap_check_stack                              
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:104
+
+     Included at geom_print_ecce.F:68
+
+      external MA_inquire_heap_no_partition                             
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:105
+
+     Included at geom_print_ecce.F:68
+
+      external MA_inquire_stack                                         
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:106
+
+     Included at geom_print_ecce.F:68
+
+      external MA_inquire_stack_check_heap                              
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:107
+
+     Included at geom_print_ecce.F:68
+
+      external MA_inquire_stack_no_partition                            
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:108
+
+     Included at geom_print_ecce.F:68
+
+      external MA_pop_stack                                             
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:109
+
+     Included at geom_print_ecce.F:68
+
+      external MA_print_stats                                           
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:110
+
+     Included at geom_print_ecce.F:68
+
+      external MA_push_get                                              
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:111
+
+     Included at geom_print_ecce.F:68
+
+      external MA_push_stack                                            
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:112
+
+     Included at geom_print_ecce.F:68
+
+      external MA_set_auto_verify                                       
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:113
+
+     Included at geom_print_ecce.F:68
+
+      external MA_set_error_print                                       
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:114
+
+     Included at geom_print_ecce.F:68
+
+      external MA_set_hard_fail                                         
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:115
+
+     Included at geom_print_ecce.F:68
+
+      external MA_set_numalign                                          
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:116
+
+     Included at geom_print_ecce.F:68
+
+      external MA_sizeof                                                
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:117
+
+     Included at geom_print_ecce.F:68
+
+      external MA_sizeof_overhead                                       
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:118
+
+     Included at geom_print_ecce.F:68
+
+      external MA_summarize_allocated_blocks                            
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:119
+
+     Included at geom_print_ecce.F:68
+
+      external MA_trace                                                 
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:120
+
+     Included at geom_print_ecce.F:68
+
+      external MA_verify_allocator_stuff                                
+                                                                       1
+Error: Unexpected attribute declaration statement at (1)
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:135
+
+     Included at geom_print_ecce.F:68
+
+      common /mbc_byte/ byte_mb(2)                                      
+                              1
+Error: Symbol 'byte_mb' at (1) is already in a COMMON block
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:136
+
+     Included at geom_print_ecce.F:68
+
+      character*1       byte_mb                                         
+                              1
+Error: Symbol 'byte_mb' at (1) already has basic type of CHARACTER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:140
+
+     Included at geom_print_ecce.F:68
+
+      common /mbc_int/  int_mb(2)                                       
+                             1
+Error: Symbol 'int_mb' at (1) is already in a COMMON block
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:141
+
+     Included at geom_print_ecce.F:68
+
+      integer           int_mb                                          
+                             1
+Error: Symbol 'int_mb' at (1) already has basic type of INTEGER
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:145
+
+     Included at geom_print_ecce.F:68
+
+      common /mbc_log/  log_mb(2)                                       
+                             1
+Error: Symbol 'log_mb' at (1) is already in a COMMON block
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:146
+
+     Included at geom_print_ecce.F:68
+
+      logical           log_mb                                          
+                             1
+Error: Symbol 'log_mb' at (1) already has basic type of LOGICAL
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:150
+
+     Included at geom_print_ecce.F:68
+
+      common /mbc_real/ real_mb(2)                                      
+                              1
+Error: Symbol 'real_mb' at (1) is already in a COMMON block
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:151
+
+     Included at geom_print_ecce.F:68
+
+      real              real_mb                                         
+                              1
+Error: Symbol 'real_mb' at (1) already has basic type of REAL
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:155
+
+     Included at geom_print_ecce.F:68
+
+      common /mbc_dbl/  dbl_mb(2)                                       
+                             1
+Error: Symbol 'dbl_mb' at (1) is already in a COMMON block
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:156
+
+     Included at geom_print_ecce.F:68
+
+      double precision  dbl_mb                                          
+                             1
+Error: Symbol 'dbl_mb' at (1) already has basic type of REAL
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:160
+
+     Included at geom_print_ecce.F:68
+
+      common /mbc_scpl/ scpl_mb(2)                                      
+                              1
+Error: Symbol 'scpl_mb' at (1) is already in a COMMON block
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:161
+
+     Included at geom_print_ecce.F:68
+
+      complex           scpl_mb                                         
+                              1
+Error: Symbol 'scpl_mb' at (1) already has basic type of COMPLEX
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:165
+
+     Included at geom_print_ecce.F:68
+
+      common /mbc_dcpl/ dcpl_mb(2)                                      
+                              1
+Error: Symbol 'dcpl_mb' at (1) is already in a COMMON block
+ In file /home/bert/nwchem-6.1/src/tools/install/include/mafdecls.fh:166
+
+     Included at geom_print_ecce.F:68
+
+      double complex    dcpl_mb                                         
+                              1
+Error: Symbol 'dcpl_mb' at (1) already has basic type of COMPLEX
+ In file geom_print_ecce.F:68
+
+      character*(*) string                                              
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file geom_print_ecce.F:69
+
+      double precision matrix(ld,l1)                                    
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file geom_print_ecce.F:70
+
+      integer ld, l1, l2                                                
+                                                                       1
+Error: Unexpected data declaration statement at (1)
+ In file geom_print_ecce.F:73
+
+      end                                                               
+     1
+Error: END IF statement expected at (1)
+Error: Unexpected end of file in 'geom_print_ecce.F'
+make[1]: *** [/home/bert/nwchem-6.1/lib/LINUX64/libnwcutil.a(geom_print_ecce.o)] Error 1
+make[1]: *** Waiting for unfinished jobs....
+ In file geom_hnd.F:4442
+
+      IF(N2) 280,270,120                                                
+                                                                       1
+Warning: Obsolete: arithmetic IF statement at (1)
+geom_hnd.F: In function ‘hnd_zxyz’:
+geom_hnd.F:4012: warning: ‘ssin’ may be used uninitialized in this function
+geom_hnd.F:4011: warning: ‘ccos’ may be used uninitialized in this function
+geom_hnd.F:4111: warning: ‘ssint’ may be used uninitialized in this function
+geom_hnd.F:4109: warning: ‘ssinp’ may be used uninitialized in this function
+geom_hnd.F:4108: warning: ‘ccosp’ may be used uninitialized in this function
+geom_hnd.F:4110: warning: ‘ccost’ may be used uninitialized in this function
+make: *** [libraries] Error 1

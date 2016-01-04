@@ -1,0 +1,58 @@
+10
+
+dir
+9931
+https://svn.pnl.gov/svn/hpctools/branches/ga-5-1/armci/src
+https://svn.pnl.gov/svn/hpctools
+
+
+
+2012-02-29T17:12:32.469950Z
+9824
+3n000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91d3b526-b83d-0410-b087-f58b80922b07
+
+devices
+dir
+
+include
+dir
+
+progress
+dir
+
+xfer
+dir
+
+common
+dir
+
+memory
+dir
+
+ft
+dir
+
+locks
+dir
+
+collectives
+dir
+
+util
+dir
+

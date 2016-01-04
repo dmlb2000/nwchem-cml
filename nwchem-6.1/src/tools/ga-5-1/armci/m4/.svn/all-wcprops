@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/m4
+END
+ltsugar.m4
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/m4/ltsugar.m4
+END
+armci_as_no_i386asm.m4
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/m4/armci_as_no_i386asm.m4
+END
+libtool.m4
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/m4/libtool.m4
+END
+ltversion.m4
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/m4/ltversion.m4
+END
+lt_obsolete.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/m4/lt_obsolete.m4
+END
+ltoptions.m4
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/m4/ltoptions.m4
+END

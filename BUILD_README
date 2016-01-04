@@ -1,0 +1,16 @@
+1. Build FoX library 
+   - Make sure same compilers are used by FoX and NWChem 
+     Set FC and CC to point to the one you're going to sue in NWChem, for example gfortran and gcc
+   - Make sure you use same integer size in FoX and NWChem. 
+     NWChem uses Integer*8, FoX by default does Integer*4.
+     Set FCFLAGS=<appropriate I8 flag for compiler, i.e. -fdefault-integer-8 for gfortran).
+   - Type configure   
+   - Type make
+
+2. Set up environment variable FOXHOME to point to FoX location
+
+3. Set up build environment NWChem following instructions on www.nwchem-sw.org/index.php/Compiling_NWChem
+
+4. Build NWChem
+   - Use "make -j1" so only one compile job happens at the same time in the util directory.
+     When you use gfortran, "make -j1 FC=gfortran" is waht you would use.

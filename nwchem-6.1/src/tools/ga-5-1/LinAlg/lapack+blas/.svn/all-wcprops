@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9809/branches/ga-5-1/LinAlg/lapack+blas
+END
+lsame.f
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/lsame.f
+END
+sgemm.f
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/sgemm.f
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/README
+END
+xgemm.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/xgemm.c
+END
+zaxpy.f
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/zaxpy.f
+END
+dgetf2.f
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/dgetf2.f
+END
+dgetrf.f
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9809/branches/ga-5-1/LinAlg/lapack+blas/dgetrf.f
+END
+dlacpy.f
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/dlacpy.f
+END
+dlaset.f
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/dlaset.f
+END
+xerbla.f
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/xerbla.f
+END
+ilaenv.f
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/ilaenv.f
+END
+zgemm.f
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/zgemm.f
+END
+xgemm.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/xgemm.h
+END
+galinalg.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/galinalg.h
+END
+dblas.f
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/dblas.f
+END
+galinalg.fh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/galinalg.fh
+END
+dummy.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/dummy.c
+END
+dgetrs.f
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/dgetrs.f
+END
+cgemm.f
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/cgemm.f
+END
+dlaswp.f
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/LinAlg/lapack+blas/dlaswp.f
+END

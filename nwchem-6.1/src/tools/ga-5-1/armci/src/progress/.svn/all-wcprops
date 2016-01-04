@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/progress
+END
+fence.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/progress/fence.c
+END
+wait.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/progress/wait.c
+END

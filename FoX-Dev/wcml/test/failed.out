@@ -1,0 +1,120 @@
+./test_cmlAddMolecule_10
+------------
+--- test.xml	2012-07-18 14:51:04.000000000 -0700
++++ ./test_cmlAddMolecule_10.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <atomArray>
+       <atom elementType="C" x3="0.00000e0" y3="0.00000e0" z3="0.00000e0" id="c1"/>
+------------
+./test_cmlAddMolecule_1
+------------
+--- test.xml	2012-07-18 14:51:04.000000000 -0700
++++ ./test_cmlAddMolecule_1.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <atomArray>
+       <atom elementType="C" x3="0.00000e0" y3="0.00000e0" z3="0.00000e0"/>
+------------
+./test_cmlAddMolecule_2
+------------
+--- test.xml	2012-07-18 14:51:04.000000000 -0700
++++ ./test_cmlAddMolecule_2.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <atomArray>
+       <atom elementType="C" xFract="0.00000e0" yFract="0.00000e0" zFract="0.00000e0"/>
+------------
+./test_cmlAddMolecule_3
+------------
+--- test.xml	2012-07-18 14:51:05.000000000 -0700
++++ ./test_cmlAddMolecule_3.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <matrix nrows="4" ncols="11" dataType="xsd:string">
+       C   1
+------------
+./test_cmlAddMolecule_4
+------------
+--- test.xml	2012-07-18 14:51:05.000000000 -0700
++++ ./test_cmlAddMolecule_4.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <atomArray>
+       <atom elementType="C" x3="0.00000e0" y3="0.00000e0" z3="0.00000e0"/>
+------------
+./test_cmlAddMolecule_5
+------------
+--- test.xml	2012-07-18 14:51:05.000000000 -0700
++++ ./test_cmlAddMolecule_5.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <atomArray>
+       <atom elementType="C" xFract="0.00000e0" yFract="0.00000e0" zFract="0.00000e0"/>
+------------
+./test_cmlAddMolecule_6
+------------
+--- test.xml	2012-07-18 14:51:05.000000000 -0700
++++ ./test_cmlAddMolecule_6.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <matrix nrows="4" ncols="11" dataType="xsd:string">
+       C   1
+------------
+./test_cmlAddMolecule_7
+------------
+--- test.xml	2012-07-18 14:51:05.000000000 -0700
++++ ./test_cmlAddMolecule_7.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <atomArray>
+       <atom elementType="C" x3="0.00000e0" y3="0.00000e0" z3="0.00000e0"/>
+------------
+./test_cmlAddMolecule_8
+------------
+--- test.xml	2012-07-18 14:51:05.000000000 -0700
++++ ./test_cmlAddMolecule_8.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <atomArray>
+       <atom elementType="C" x3="0.00000e0" y3="0.00000e0" z3="0.00000e0"/>
+------------
+./test_cmlAddMolecule_9
+------------
+--- test.xml	2012-07-18 14:51:05.000000000 -0700
++++ ./test_cmlAddMolecule_9.xml	2012-01-25 11:55:30.000000000 -0800
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:convention="http://www.xml-cml.org/convention" xmlns:unit="http://www.xml-cml.org/unit/si">
++<cml convention="CMLComp" fileId="test.xml" xmlns="http://www.xml-cml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+   <molecule title="Formaldehyde">
+     <atomArray>
+       <atom elementType="C" x3="0.00000e0" y3="0.00000e0" z3="0.00000e0" id="c1"/>
+------------

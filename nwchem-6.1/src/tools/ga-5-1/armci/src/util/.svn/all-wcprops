@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/util
+END
+threads.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/util/threads.c
+END
+armci_cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/util/armci_cpp
+END

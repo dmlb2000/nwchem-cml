@@ -1,0 +1,34 @@
+echo
+start prop_h2o_run
+title h2o
+ecce_print prop_h2o.cml
+
+geometry units au nocenter 
+o       .00000000      .00000000      .11786656
+h       .00000000     1.84118838     -.93531364
+h       .00000000    -1.84118838     -.93531364
+end
+
+basis 
+  * library cc-pvdz 
+end
+charge 0
+
+task scf energy
+task scf optimize
+task scf freq
+
+property
+  mulliken
+  dipole
+  quadrupole
+  octupole
+  esp
+  efield
+  efieldgrad
+  electrondensity
+  shielding
+end
+
+task scf property
+

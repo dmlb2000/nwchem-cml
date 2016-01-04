@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/LICENSE.txt
+END
+scipy_proc.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/scipy_proc.cfg
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/README.txt
+END
+concat_proceedings_pdf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/concat_proceedings_pdf.sh
+END
+build_index.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/build_index.py
+END
+make_paper.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/make_paper.sh
+END
+make_all.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/make_all.sh
+END

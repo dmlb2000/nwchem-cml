@@ -1,0 +1,16 @@
+ argument  1 = prop_h2o.nw
+  Unable to open prop_h2o.nw --- appending .nw
+ ------------------------------------------------------------------------
+ nwchem: failed to open the input file        0
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+  current input line : 
+     0: 
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+ There is an error in the input file
+ ------------------------------------------------------------------------
+ For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
+
+
+ For further details see manual section:                                                                                                                                                                                                                                                                

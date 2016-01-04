@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/cg/armci_sharedmemory
+END
+cg.x
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/cg/armci_sharedmemory/cg.x
+END
+matrix_med.bin
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/cg/armci_sharedmemory/matrix_med.bin
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/cg/armci_sharedmemory/GNUmakefile
+END
+cg.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/cg/armci_sharedmemory/cg.c
+END
+generateinput.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/cg/armci_sharedmemory/generateinput.c
+END
+read_input.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/cg/armci_sharedmemory/read_input.c
+END
+compute.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/cg/armci_sharedmemory/compute.c
+END
+generateinput.f
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/cg/armci_sharedmemory/generateinput.f
+END

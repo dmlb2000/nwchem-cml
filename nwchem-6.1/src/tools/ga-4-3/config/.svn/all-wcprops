@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/hpctools/!svn/ver/6388/branches/ga-4-3/config
+END
+NTmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/config/NTmakefile
+END
+makefile.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/6388/branches/ga-4-3/config/makefile.h
+END
+NTmakefile.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/config/NTmakefile.h
+END
+makelib.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/config/makelib.h
+END
+NTmakelib.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/config/NTmakelib.h
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/config/makefile
+END

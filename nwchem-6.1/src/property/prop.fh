@@ -1,0 +1,11 @@
+*
+* $Id: prop.fh 19707 2010-10-29 17:59:36Z d3y133 $
+*
+c
+c     Include file that contains information used by the property routines
+c     when connecting to other parts of the code
+c
+      integer cosmo_geom_efc
+      character*3 use_theory
+      common /cosmo_prop/cosmo_geom_efc
+      common /prop_theory/use_theory

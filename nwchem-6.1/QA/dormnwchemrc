@@ -1,0 +1,9 @@
+#!/bin/csh -f
+#
+# $Id: dormnwchemrc 19708 2010-10-29 18:04:21Z d3y133 $
+#
+#---   restore original nwchemrc file
+#
+if (-f ~/nwchemrc-backup) then
+  mv -f ~/nwchemrc-backup ~/.nwchemrc 
+endif

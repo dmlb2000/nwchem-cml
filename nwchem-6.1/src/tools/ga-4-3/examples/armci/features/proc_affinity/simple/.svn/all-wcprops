@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/features/proc_affinity/simple
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/features/proc_affinity/simple/GNUmakefile
+END
+simple.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/features/proc_affinity/simple/simple.c
+END

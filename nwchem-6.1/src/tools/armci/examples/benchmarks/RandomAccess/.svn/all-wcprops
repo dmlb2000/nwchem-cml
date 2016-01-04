@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/hpctools/!svn/ver/7306/branches/ga-4-3/armci/examples/benchmarks/RandomAccess
+END
+ra_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hpctools/!svn/ver/7306/branches/ga-4-3/armci/examples/benchmarks/RandomAccess/ra_common.h
+END
+timing.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/hpctools/!svn/ver/7306/branches/ga-4-3/armci/examples/benchmarks/RandomAccess/timing.c
+END

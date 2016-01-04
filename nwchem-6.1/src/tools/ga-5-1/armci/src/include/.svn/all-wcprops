@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9793/branches/ga-5-1/armci/src/include
+END
+iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9793/branches/ga-5-1/armci/src/include/iterator.h
+END
+armci.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/armci.h
+END
+fujitsu-vpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/fujitsu-vpp.h
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/utils.h
+END
+shmalloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/shmalloc.h
+END
+kr_malloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/kr_malloc.h
+END
+signaltrap.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/signaltrap.h
+END
+semaphores.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9567/branches/ga-5-1/armci/src/include/semaphores.h
+END
+tas-ppc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/tas-ppc.h
+END
+shmem.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/shmem.h
+END
+gpc.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/gpc.h
+END
+tas-alpha.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/tas-alpha.h
+END
+copy.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/copy.h
+END
+armcip.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/armcip.h
+END
+locks.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/locks.h
+END
+parmci.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/parmci.h
+END
+tas-i386.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/tas-i386.h
+END
+spinlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/spinlock.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/message.h
+END
+atomics-i386.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/atomics-i386.h
+END
+acc.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/acc.h
+END
+shmlimit.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/shmlimit.h
+END
+memlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/memlock.h
+END
+request.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/request.h
+END
+tas-ia64.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/include/tas-ia64.h
+END

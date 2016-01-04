@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf
+END
+be.inpt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/be.inpt
+END
+scf.F
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/scf.F
+END
+twoelcpp.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/twoelcpp.cc
+END
+input.F
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/input.F
+END
+cscf.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/cscf.h
+END
+output.F
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/output.F
+END
+timer.F
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/timer.F
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/main.c
+END
+be16.inpt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/be16.inpt
+END
+integ.F
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/integ.F
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/examples/scf/README
+END

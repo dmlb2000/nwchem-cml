@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/portals
+END
+armci_portals.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/portals/armci_portals.h
+END
+portals.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/portals/portals.c
+END
+portals.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/devices/portals/portals.h
+END

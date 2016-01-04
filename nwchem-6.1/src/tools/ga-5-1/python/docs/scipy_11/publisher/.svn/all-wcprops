@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/publisher
+END
+options.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/publisher/options.py
+END
+writer.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/publisher/writer.py
+END
+sphinx_highlight.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/publisher/sphinx_highlight.py
+END
+paper_cut.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/publisher/paper_cut.py
+END
+rstmath.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/publisher/rstmath.py
+END
+code_block.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/publisher/code_block.py
+END
+build_paper.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/docs/scipy_11/publisher/build_paper.py
+END

@@ -1,0 +1,455 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/9861/branches/ga-5-1/armci/src-gemini
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/utils.c
+END
+shmalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/shmalloc.c
+END
+kr_malloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/kr_malloc.c
+END
+signaltrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/signaltrap.c
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/utils.h
+END
+semaphores.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9567/branches/ga-5-1/armci/src-gemini/semaphores.c
+END
+shmalloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/shmalloc.h
+END
+kr_malloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/kr_malloc.h
+END
+signaltrap.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/signaltrap.h
+END
+portals_ds.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/portals_ds.c
+END
+semaphores.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9567/branches/ga-5-1/armci/src-gemini/semaphores.h
+END
+tas-ppc.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/tas-ppc.h
+END
+fcopy.f
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/fcopy.f
+END
+message.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/message.c
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/message.h
+END
+threads.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/threads.c
+END
+atomics-i386.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/atomics-i386.h
+END
+clusterinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/clusterinfo.c
+END
+pendbufs.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/pendbufs.c
+END
+memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/memory.c
+END
+pendbufs.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/pendbufs.h
+END
+locks.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/locks.c
+END
+copy.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/copy.h
+END
+groups.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/groups.c
+END
+armcip.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/armcip.h
+END
+locks.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/locks.h
+END
+new_memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/new_memory.c
+END
+portals.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/portals.c
+END
+caccumulate.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/caccumulate.c
+END
+aggregate.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/aggregate.c
+END
+memlock.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/memlock.c
+END
+bufalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/bufalloc.c
+END
+tas.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/tas.c
+END
+request.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/request.c
+END
+portals.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/portals.h
+END
+armci.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/armci.c
+END
+faccumulate.f
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/faccumulate.f
+END
+memlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/memlock.h
+END
+tas-ia64.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/tas-ia64.h
+END
+request.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/request.h
+END
+strided.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/strided.c
+END
+armci.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/armci.h
+END
+rtinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/rtinfo.c
+END
+mutex.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/mutex.c
+END
+Makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/Makefile.inc
+END
+rmw.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/rmw.c
+END
+gpc.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/gpc.c
+END
+shmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9861/branches/ga-5-1/armci/src-gemini/shmem.c
+END
+ds-shared.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/ds-shared.c
+END
+ccopy.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/ccopy.c
+END
+gpc.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/gpc.h
+END
+pack.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/pack.c
+END
+shmem.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/shmem.h
+END
+tas-alpha.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/tas-alpha.h
+END
+fence.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/fence.c
+END
+sockets.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/sockets.h
+END
+run_test
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/run_test
+END
+tas-i386.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/tas-i386.h
+END
+acc.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/acc.c
+END
+spinlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/spinlock.h
+END
+spawn.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/spawn.c
+END
+generategnuplot.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/generategnuplot.sh
+END
+acc.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/acc.h
+END
+buffers.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/buffers.c
+END
+armci_portals.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/armci_portals.c
+END
+vector.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/vector.c
+END
+armci_portals.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/armci_portals.h
+END
+build.env
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/build.env
+END
+portals_cp.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/portals_cp.c
+END
+timer.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/timer.c
+END
+armci-onesided.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/armci-onesided.c
+END
+shmlimit.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/shmlimit.c
+END
+armci-onesided.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/armci-onesided.h
+END
+code_options.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/code_options.h
+END
+shmlimit.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src-gemini/shmlimit.h
+END

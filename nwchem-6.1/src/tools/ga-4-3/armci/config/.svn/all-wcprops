@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hpctools/!svn/ver/6544/branches/ga-4-3/armci/config
+END
+makemp.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/6423/branches/ga-4-3/armci/config/makemp.h
+END
+makefile.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/6544/branches/ga-4-3/armci/config/makefile.h
+END
+makecoms.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/config/makecoms.h
+END
+makelib.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/config/makelib.h
+END

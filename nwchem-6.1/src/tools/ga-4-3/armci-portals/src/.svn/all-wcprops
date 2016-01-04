@@ -1,0 +1,551 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/8700/branches/ga-4-3/armci-portals/src
+END
+ptltest.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/ptltest.c
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/utils.c
+END
+shmalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/shmalloc.c
+END
+kr_malloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/kr_malloc.c
+END
+signaltrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/signaltrap.c
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/utils.h
+END
+semaphores.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/semaphores.c
+END
+shmalloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/shmalloc.h
+END
+kr_malloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/kr_malloc.h
+END
+signaltrap.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/signaltrap.h
+END
+portals_ds.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/portals_ds.c
+END
+perf_nb.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/perf_nb.c
+END
+semaphores.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/semaphores.h
+END
+tas-ppc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/tas-ppc.h
+END
+fcopy.f
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/fcopy.f
+END
+message.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/message.c
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/message.h
+END
+simple.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/simple.c
+END
+threads.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/threads.c
+END
+atomics-i386.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/atomics-i386.h
+END
+clusterinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/clusterinfo.c
+END
+clone.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/clone.c
+END
+tas.gcc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/tas.gcc
+END
+simplelock.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/simplelock.c
+END
+mp3.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/mp3.h
+END
+pendbufs.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/pendbufs.c
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/GNUmakefile
+END
+memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/memory.c
+END
+gpctest.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/gpctest.c
+END
+pendbufs.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/6544/branches/ga-4-3/armci-portals/src/pendbufs.h
+END
+ipctest.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/ipctest.c
+END
+locks.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/locks.c
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/test.c
+END
+groups.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/groups.c
+END
+copy.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/copy.h
+END
+locks.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/locks.h
+END
+armcip.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/armcip.h
+END
+origptl.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/origptl.c
+END
+new_memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/new_memory.c
+END
+portals.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/8700/branches/ga-4-3/armci-portals/src/portals.c
+END
+aggregate.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/aggregate.c
+END
+shmtest.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/shmtest.c
+END
+bufalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/bufalloc.c
+END
+memlock.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/6937/branches/ga-4-3/armci-portals/src/memlock.c
+END
+request.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/request.c
+END
+portals.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/portals.h
+END
+armci.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/6026/branches/ga-4-3/armci-portals/src/armci.c
+END
+faccumulate.f
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/faccumulate.f
+END
+memlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/memlock.h
+END
+perf.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/perf.c
+END
+tas-ia64.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/tas-ia64.h
+END
+request.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/request.h
+END
+strided.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/strided.c
+END
+armci.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/armci.h
+END
+fork.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/fork.c
+END
+rtinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/rtinfo.c
+END
+mutex.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/mutex.c
+END
+rmw.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/rmw.c
+END
+testnotify.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/testnotify.c
+END
+gpc.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/gpc.c
+END
+shmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/shmem.c
+END
+ds-shared.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/ds-shared.c
+END
+pack.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/pack.c
+END
+shmem.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/shmem.h
+END
+gpc.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/gpc.h
+END
+tas-alpha.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/tas-alpha.h
+END
+test_mt.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/test_mt.c
+END
+fence.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/fence.c
+END
+sockets.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/sockets.h
+END
+tas-i386.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/tas-i386.h
+END
+acc.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/acc.c
+END
+spinlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/spinlock.h
+END
+spawn.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/spawn.c
+END
+acc.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/acc.h
+END
+perf_aggr.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/perf_aggr.c
+END
+buffers.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/buffers.c
+END
+armci_portals.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/armci_portals.c
+END
+test2.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/test2.c
+END
+vector.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/vector.c
+END
+armci_portals.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/armci_portals.h
+END
+portals_cp.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/6290/branches/ga-4-3/armci-portals/src/portals_cp.c
+END
+te.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/te.c
+END
+armci_profile.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/armci_profile.c
+END
+test_groups.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/6148/branches/ga-4-3/armci-portals/src/test_groups.c
+END
+armci_profile.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/armci_profile.h
+END
+timer.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/timer.c
+END
+msgcheck.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/msgcheck.c
+END
+shmlimit.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/shmlimit.c
+END
+shmclean.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/shmclean.c
+END
+code_options.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/6016/branches/ga-4-3/armci-portals/src/code_options.h
+END
+shmlimit.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci-portals/src/shmlimit.h
+END

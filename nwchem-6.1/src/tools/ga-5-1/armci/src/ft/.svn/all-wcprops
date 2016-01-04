@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/ft
+END
+armci_storage.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/ft/armci_storage.c
+END
+armci_chkpt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/ft/armci_chkpt.c
+END
+armci_storage.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/ft/armci_storage.h
+END
+armci_chkpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/src/ft/armci_chkpt.h
+END

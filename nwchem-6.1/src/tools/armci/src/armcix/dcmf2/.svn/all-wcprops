@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2
+END
+armcix_get.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/armcix_get.c
+END
+armcix_fence.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/armcix_fence.c
+END
+armcix_impl.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/armcix_impl.c
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/GNUmakefile
+END
+armcix_wait.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/armcix_wait.c
+END
+armcix_rmw.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/armcix_rmw.c
+END
+armcix_acc.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/armcix_acc.c
+END
+armcix_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/armcix_impl.h
+END
+armcix_lock.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/armcix_lock.c
+END
+armcix_put.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/src/armcix/dcmf2/armcix_put.c
+END

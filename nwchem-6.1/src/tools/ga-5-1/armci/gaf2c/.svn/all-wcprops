@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/gaf2c
+END
+farg.F
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/gaf2c/farg.F
+END
+gaf2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/gaf2c/gaf2c.c
+END
+testargf.f
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/gaf2c/testargf.f
+END
+drand.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/gaf2c/drand.c
+END
+farg.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/gaf2c/farg.h.in
+END
+testarg.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/gaf2c/testarg.c
+END
+typesf2c.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/gaf2c/typesf2c.h.in
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src
+END
+GAServices.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/GAServices.cc
+END
+overload.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/overload.cc
+END
+PGroup.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/PGroup.cc
+END
+init_term.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/init_term.h
+END
+GAServices.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/GAServices.h
+END
+PGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/PGroup.h
+END
+GlobalArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/GlobalArray.cc
+END
+ga++.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/ga++.h
+END
+GlobalArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/GlobalArray.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/GNUmakefile
+END
+MakeFile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/MakeFile
+END
+init_term.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ga++/src/init_term.cc
+END

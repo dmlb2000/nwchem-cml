@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/hpctools/!svn/ver/9901/branches/ga-5-1
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/9655/branches/ga-5-1/config.h.in
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/hpctools/!svn/ver/9657/branches/ga-5-1/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/9569/branches/ga-5-1/Makefile.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hpctools/!svn/ver/9629/branches/ga-5-1/configure.ac
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/INSTALL
+END
+NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/NOTES
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/COPYRIGHT
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/9569/branches/ga-5-1/Makefile.am
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/README
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/aclocal.m4
+END

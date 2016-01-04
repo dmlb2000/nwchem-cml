@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hpctools/!svn/ver/9901/branches/ga-5-1/armci/tcgmsg
+END
+makep.proto
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/makep.proto
+END
+tcgmsg.fh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg.fh
+END
+msgtypesc.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/msgtypesc.h
+END
+Makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/Makefile.inc
+END
+ANNOUNCE
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/ANNOUNCE
+END
+msgtypesf.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/msgtypesf.h
+END
+sendshar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/sendshar
+END
+tcgmsg.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/README
+END
+capi.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/capi.c
+END

@@ -1,0 +1,43 @@
+  <module title="NWChem simulation" dictRef="compchem:jobList">
+    <module dictRef="nwchem:Input" role="LexicalFile">
+    </module>
+    <module title="NWChem runtime" dictRef="compchem:environment">
+    </module>
+    <module title="task frequencies" dictRef="nwchem:task frequencies">
+      <module title="task hessian" dictRef="nwchem:task hessian">
+        <module title="task hessian" dictRef="nwchem:task hessian">
+          <module title="task energy" dictRef="nwchem:task energy">
+            <module title="scf" dictRef="nwchem:scf">
+              <!--closing module scf-->
+            </module>
+            <!--closing module task energy-->
+          </module>
+          <!--closing module task hessian-->
+        </module>
+        <!--closing module task frequencies-->
+      </module>
+      <module title="task property" dictRef="nwchem:task property">
+        <module title="task energy" dictRef="nwchem:task energy">
+          <module title="scf" dictRef="nwchem:scf">
+            <!--closing module scf-->
+          </module>
+          <!--closing module task energy-->
+        </module>
+        <module title="Elpoten" dictRef="nwchem:Elpoten">
+          <!--closing module Elpoten-->
+        </module>
+        <module title="EField" dictRef="nwchem:EField">
+          <!--closing module EField-->
+        </module>
+        <module title="efg" dictRef="nwchem:efg">
+          <!--closing module EFG-->
+        </module>
+        <module title="Eldensities" dictRef="nwchem:Eldensities">
+          <!--closing module Eldensities-->
+        </module>
+        <module title="nmr" dictRef="nwchem:nmr">
+          <!--closing module nmr-->
+        </module>
+        <!--closing module task property-->
+      </module>
+    </module>

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/9793/branches/ga-5-1/armci/testing
+END
+testitr.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9793/branches/ga-5-1/armci/testing/testitr.c
+END
+ptltest.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/ptltest.c
+END
+clone.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/clone.c
+END
+test2.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/test2.c
+END
+fork.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/fork.c
+END
+simplelock.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/simplelock.c
+END
+testnotify.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/testnotify.c
+END
+te.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/te.c
+END
+copy_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/copy_test.c
+END
+fttest.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/fttest.c
+END
+gpctest.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/gpctest.c
+END
+ipctest.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/ipctest.c
+END
+perf_nb.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/perf_nb.c
+END
+test_groups.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/test_groups.c
+END
+test_mt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/test_mt.c
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/test.c
+END
+origptl.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/origptl.c
+END
+msgcheck.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/msgcheck.c
+END
+acc_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/acc_test.c
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/timer.h
+END
+shmtest.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/shmtest.c
+END
+simple.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/simple.c
+END
+shmclean.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/shmclean.c
+END
+perf_aggr.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/testing/perf_aggr.c
+END
+perf.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/9475/branches/ga-5-1/armci/testing/perf.c
+END

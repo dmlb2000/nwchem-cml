@@ -1,0 +1,5 @@
+c
+c $Id: qmd_common.fh 19708 2010-10-29 18:04:21Z d3y133 $
+c
+      integer lgeom,igeom,jdebug
+      common/qmd_int/lgeom,igeom,jdebug

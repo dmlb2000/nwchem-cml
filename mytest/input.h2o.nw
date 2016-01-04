@@ -1,0 +1,32 @@
+start nmrrun
+
+#ecce_print nmrrun.h2.cml
+
+charge 0
+
+memory heap 100 mb stack 1500 mb global 1500 mb
+
+geometry noautosym
+ H 0.0 0.58708  0.75754
+ H 0.0 0.58708 -0.75754
+end
+
+basis
+ * library cc-pvdz
+end
+
+dft
+ mult 1
+ vectors output nmr_water.movecs
+ xc pbe0
+ direct
+ noio
+end
+
+task scf 
+#
+#property
+# shielding 1 1
+#end
+#
+#task dft property

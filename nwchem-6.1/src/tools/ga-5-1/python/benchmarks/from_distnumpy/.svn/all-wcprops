@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/benchmarks/from_distnumpy
+END
+nbody.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/benchmarks/from_distnumpy/nbody.py
+END
+MonteCarlo.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/benchmarks/from_distnumpy/MonteCarlo.py
+END
+jacobi.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/python/benchmarks/from_distnumpy/jacobi.py
+END

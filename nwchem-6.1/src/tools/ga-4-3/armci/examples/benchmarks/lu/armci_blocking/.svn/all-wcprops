@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/examples/benchmarks/lu/armci_blocking
+END
+lu.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/examples/benchmarks/lu/armci_blocking/lu.c
+END
+lu-b-bc.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/examples/benchmarks/lu/armci_blocking/lu-b-bc.c
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/examples/benchmarks/lu/armci_blocking/GNUmakefile
+END
+lu-block.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/armci/examples/benchmarks/lu/armci_blocking/lu-block.c
+END

@@ -1,0 +1,2522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml convention="CMLComp" fileId="h2o.cml" xmlns="http://www.xml-cml.org/schema" xmlns:nwchem="http://www.nwchem-sw.org/namespace" xmlns:nwchemUnits="http://www.nwchem-sw.org/namespace/units" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fpx="http://www.uszla.me.uk/fpx" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:units="http://www.uszla.me.uk/FoX/units" xmlns:cmlUnits="http://www.xml-cml.org/units/units" xmlns:siUnits="http://www.xml-cml.org/units/siUnits" xmlns:atomicUnits="http://www.xml-cml.org/units/atomic">
+  <metadata name="UUID" content="c7cb3a70-4c8d-11e1-6a45-bd3bcc9539bc"/>
+  <module title="NWChem simulation" dictRef="nwchem:simulation">
+    <scalar dictRef="nwchem:Input"/>
+    <metadataList>
+      <metadata name="Program" content="NWChem"/>
+      <metadata name="Version" content="Wed_Feb_01_12:31:25_2012 Version 6.1"/>
+      <metadata name="Mode" content="Serial"/>
+      <metadata name="StartTime" content="Wed Feb  1 12:32:19 2012
+"/>
+    </metadataList>
+    <module title="task optimize" dictRef="nwchem:task optimize">
+      <module title="driver" dictRef="nwchem:driver">
+        <module title="task gradient" dictRef="nwchem:task gradient">
+          <module title="scf" dictRef="nwchem:scf">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <parameterList>
+              <parameter dictRef="nwchem:group class names" name="group class names">
+                <array size="4" delimiter=" " dataType="xsd:string" units="none">e        c2       si.xz    si.yz   </array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:group irrep names" name="group irrep names">
+                <array size="4" delimiter=" " dataType="xsd:string" units="none">a1       a2       b1       b2      </array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.596575659955e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">8.550979035733e-1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.599469527747e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">5.252537495846e-1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.600349881608e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">2.004033465546e-1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.600621753980e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">5.068818694680e-2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.600643667751e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">1.067498402376e-3</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.600643683177e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">2.845563207796e-6</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.600643683177e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:one-electron energy" name="one-electron energy">
+                <scalar dataType="fpx:real" units="none">-1.217388909417e2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:two-electron energy" name="two-electron energy">
+                <scalar dataType="fpx:real" units="none">3.728441929378e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear repulsion energy" name="nuclear repulsion energy">
+                <scalar dataType="fpx:real" units="none">8.448034816185e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital symmetries" name="orbital symmetries">
+                <scalar dataType="xsd:integer" units="none">1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken atomic charges" name="total mulliken atomic charges">
+                <array size="3" dataType="fpx:real" units="none">-3.617048574797e-1 1.808524287399e-1 1.808524287399e-1</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken shell charges" name="total mulliken shell charges">
+                <array size="12" dataType="fpx:real" units="none">2.001713489573e0 8.532496947431e-1 9.058346773512e-1 2.731592393186e0 1.855208464287e0 1.410613833954e-2 6.403795613071e-1 1.059443679553e-1 7.282364199775e-2 6.403795613071e-1 1.059443679553e-1 7.282364199775e-2</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total dipole" name="total dipole">
+                <scalar dataType="fpx:real" units="none">-6.071532165919e-17</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell dipole" name="open shell dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear dipole" name="nuclear dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total quadrupole" name="total quadrupole">
+                <scalar dataType="fpx:real" units="none">-3.478500992768e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell quadrupole" name="open shell quadrupole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear quadrupole" name="nuclear quadrupole">
+                <scalar dataType="fpx:real" units="none">3.911029634409e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:molecular orbital energies RHF" name="molecular orbital energies RHF">
+                <array size="25" dataType="fpx:real" units="none">-2.057466316927e1 -1.307218069897e0 -6.297604278915e-1 -5.792858466490e-1 -4.940986633825e-1 1.645002412203e-1 2.397584771820e-1 6.981411183093e-1 8.251589438363e-1 1.179502457914e0 1.188127009354e0 1.277646587707e0 1.309757823624e0 1.507096903804e0 1.586760689459e0 1.711999082288e0 1.915824421952e0 2.265523499748e0 2.304265254825e0 3.210525721111e0 3.261620272999e0 3.357639236003e0 3.757164190793e0 4.083176494300e0 5.856642346968e0</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:molecular orbital occupations RHF" name="molecular orbital occupations RHF">
+                <array size="25" dataType="fpx:real" units="none">2.000000000000e0 2.000000000000e0 2.000000000000e0 2.000000000000e0 2.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:molecular orbital symmetries RHF" name="molecular orbital symmetries RHF">
+                <array size="25" dataType="xsd:integer" units="none">1 1 3 1 4 1 3 3 1 1 4 3 1 2 4 1 3 3 1 2 4 1 1 3 1</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:molecular orbital range RHF" name="molecular orbital range RHF">
+                <array size="2" dataType="xsd:integer" units="none">1 25</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:molecular orbital vectors RHF" name="molecular orbital vectors RHF">
+                <matrix rows="25" columns="25" dataType="fpx:real" units="none">1.000874149341e0 1.674526532813e-3 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 4.495699718035e-1 4.191745454958e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 3.718474214651e-3 3.248062451159e-3 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 5.610892909118e-3 1.646969545503e-1 1.224094759077e-2 2.776327816157e-2 0.000000000000e0 2.226042180702e-2 1.646969545503e-1 1.224094759077e-2 0.000000000000e0 0.000000000000e0 2.226042180702e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 4.912846428618e-1 
+0.000000000000e0 0.000000000000e0 2.711365345332e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 2.998801359696e-1 1.222996929212e-1 0.000000000000e0 0.000000000000e0 3.354296155618e-2 0.000000000000e0 1.617649435226e-1 3.724845978767e-1 0.000000000000e0 0.000000000000e0 5.167598468578e-1 0.000000000000e0 0.000000000000e0 3.334292473945e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 3.815215607203e-3 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 3.332068496745e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 6.367590308262e-1 0.000000000000e0 0.000000000000e0 4.955384927388e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 
+0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 2.854619523541e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 2.854619523541e-2 0.000000000000e0 0.000000000000e0 7.622806298224e-2 9.440827801450e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 6.952761667633e-3 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.927572190707e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 7.306015201046e-2 1.341453443504e0 
+0.000000000000e0 0.000000000000e0 6.378881617638e-3 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 8.982737463974e-1 5.766973855148e-2 0.000000000000e0 9.709858990829e-2 9.372104445491e-1 0.000000000000e0 5.766973855148e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 4.930054864978e-1 0.000000000000e0 0.000000000000e0 4.283947193541e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 3.883510703805e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.691212200137e-2 7.989200220676e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 7.989200220676e-1 0.000000000000e0 2.100029329049e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 
+0.000000000000e0 0.000000000000e0 1.140696188616e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 5.008145034824e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 2.987437830370e-1 5.008145034824e-1 0.000000000000e0 3.578573401182e-2 0.000000000000e0 2.987437830370e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 9.527245803813e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.236765649884e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.605580064857e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 
+2.673963003642e-1 7.340984471213e-1 2.350654053078e-1 0.000000000000e0 2.053014268538e-1 0.000000000000e0 0.000000000000e0 2.350654053078e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.491710290856e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 8.481970706913e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 4.512633737825e-2 3.738308081290e-1 0.000000000000e0 5.060940681318e-1 0.000000000000e0 0.000000000000e0 3.738308081290e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 6.937483630899e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 
+0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.534123450543e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 7.267873533792e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 7.267873533792e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 3.179348093060e0 0.000000000000e0 0.000000000000e0 1.489763813853e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 2.070390183153e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.610066974994e-1 0.000000000000e0 0.000000000000e0 6.307758431672e-1 0.000000000000e0 
+0.000000000000e0 0.000000000000e0 0.000000000000e0 8.120464424737e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 2.283398764653e-1 1.005764582358e-1 0.000000000000e0 0.000000000000e0 7.592222782022e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 6.372999064853e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.821739619387e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.151579910887e-1 3.556121030607e-1 7.897548547486e-1 0.000000000000e0 3.690848361066e-1 0.000000000000e0 0.000000000000e0 7.897548547486e-1 0.000000000000e0 0.000000000000e0 3.018962584009e-2 1.841297402165e-1 1.050472027325e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 2.431009103301e-1 0.000000000000e0 1.210894684966e-2 0.000000000000e0 0.000000000000e0 
+0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 6.139482137643e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.781251339589e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 3.017224443318e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 4.514502419771e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.786266350345e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 3.551056547166e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 3.551056547166e-1 0.000000000000e0 0.000000000000e0 
+8.697765646590e-3 2.326421198460e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.020632306531e-1 9.912867477070e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.393091713631e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 2.102660353691e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 3.105095299736e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 6.616855684997e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 5.590405284550e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 
+0.000000000000e0 2.233697636490e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 7.943032043763e-1 2.683684754614e-1 0.000000000000e0 0.000000000000e0 5.535907585282e-1 3.485061772200e-1 1.695471412657e0 1.600814353991e0 0.000000000000e0 0.000000000000e0 1.223867682235e-1 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 0.000000000000e0 5.552959521345e-2 0.000000000000e0 1.042260895684e-1 0.000000000000e0 1.200746163129e-1 5.552959521345e-2 0.000000000000e0 0.000000000000e0 0.000000000000e0 1.200746163129e-1</matrix>
+              </parameter>
+            </parameterList>
+            <!--scf status ok-->
+            <!--closing module scf-->
+          </module>
+          <module title="gradients" dictRef="nwchem:gradients">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <!--gradients status ok-->
+            <!--closing module gradients-->
+          </module>
+          <parameterList>
+            <parameter dictRef="nwchem:cartesian coordinates" name="cartesian coordinates">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 1.480000000000e-1 -7.400000000000e-1 0.000000000000e0 -5.920000000000e-1 7.400000000000e-1 0.000000000000e0 -5.920000000000e-1</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic charges" name="atomic charges">
+              <scalar dataType="fpx:real" units="none">8.000000000000e0</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic tags" name="atomic tags">
+              <scalar dataType="xsd:string" units="none">O </scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:group name" name="group name">
+              <scalar dataType="xsd:string" units="none">C2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total energy" name="total energy">
+              <scalar dataType="fpx:real" units="none">-7.600643683177e1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total gradient" name="total gradient">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 1.348542659279e-1 -4.129635687961e-2 0.000000000000e0 -6.742713296395e-2 4.129635687961e-2 0.000000000000e0 -6.742713296395e-2</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient norm" name="gradient norm">
+              <scalar dataType="fpx:real" units="none">1.751835829679e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient max" name="gradient max">
+              <scalar dataType="fpx:real" units="none">1.348542659279e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:cpu time" name="cpu time">
+              <scalar dataType="fpx:real" units="none">3.179520000000e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:wall time" name="wall time">
+              <scalar dataType="fpx:real" units="none">3.478989601135e-1</scalar>
+            </parameter>
+          </parameterList>
+          <!--task gradient status ok-->
+          <!--closing module task gradient-->
+        </module>
+        <module title="task energy" dictRef="nwchem:task energy">
+          <module title="scf" dictRef="nwchem:scf">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.601020662722e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">4.252455643571e-1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602226632945e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">1.343529355689e-1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602346332797e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">8.019719359521e-3</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602347178433e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">2.662619232337e-5</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602347178433e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:one-electron energy" name="one-electron energy">
+                <scalar dataType="fpx:real" units="none">-1.239387499029e2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:two-electron energy" name="two-electron energy">
+                <scalar dataType="fpx:real" units="none">3.825919628437e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear repulsion energy" name="nuclear repulsion energy">
+                <scalar dataType="fpx:real" units="none">9.656081834194e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital symmetries" name="orbital symmetries">
+                <scalar dataType="xsd:integer" units="none">1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken atomic charges" name="total mulliken atomic charges">
+                <array size="3" dataType="fpx:real" units="none">-2.387052638682e-1 1.193526319341e-1 1.193526319341e-1</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken shell charges" name="total mulliken shell charges">
+                <array size="12" dataType="fpx:real" units="none">2.002141150950e0 8.275197194051e-1 7.773034347489e-1 2.856394154046e0 1.753258078563e0 2.208872615539e-2 7.283138875813e-1 5.935533798902e-2 9.297814249552e-2 7.283138875813e-1 5.935533798902e-2 9.297814249552e-2</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total dipole" name="total dipole">
+                <scalar dataType="fpx:real" units="none">6.548581121812e-16</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell dipole" name="open shell dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear dipole" name="nuclear dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total quadrupole" name="total quadrupole">
+                <scalar dataType="fpx:real" units="none">-3.299163902798e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell quadrupole" name="open shell quadrupole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear quadrupole" name="nuclear quadrupole">
+                <scalar dataType="fpx:real" units="none">3.446170867050e0</scalar>
+              </parameter>
+            </parameterList>
+            <!--scf status ok-->
+            <!--closing module scf-->
+          </module>
+          <parameterList>
+            <parameter dictRef="nwchem:cpu time" name="cpu time">
+              <scalar dataType="fpx:real" units="none">8.598700000000e-2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:wall time" name="wall time">
+              <scalar dataType="fpx:real" units="none">1.086370944977e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:cartesian coordinates" name="cartesian coordinates">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 4.951131560185e-2 -6.946316536028e-1 0.000000000000e0 -5.427556578009e-1 6.946316536028e-1 0.000000000000e0 -5.427556578009e-1</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic charges" name="atomic charges">
+              <scalar dataType="fpx:real" units="none">8.000000000000e0</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic tags" name="atomic tags">
+              <scalar dataType="xsd:string" units="none">O </scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:group name" name="group name">
+              <scalar dataType="xsd:string" units="none">C2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total energy" name="total energy">
+              <scalar dataType="fpx:real" units="none">-7.602347178433e1</scalar>
+            </parameter>
+          </parameterList>
+          <!--task energy status ok-->
+          <!--closing module task energy-->
+        </module>
+        <module title="task gradient" dictRef="nwchem:task gradient">
+          <module title="scf" dictRef="nwchem:scf">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602510953756e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">8.787639851362e-2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602565565828e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">5.967751881910e-3</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602565978225e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">2.634773838362e-5</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602565978225e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:one-electron energy" name="one-electron energy">
+                <scalar dataType="fpx:real" units="none">-1.234813315165e2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:two-electron energy" name="two-electron energy">
+                <scalar dataType="fpx:real" units="none">3.805800367745e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear repulsion energy" name="nuclear repulsion energy">
+                <scalar dataType="fpx:real" units="none">9.397668056826e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital symmetries" name="orbital symmetries">
+                <scalar dataType="xsd:integer" units="none">1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken atomic charges" name="total mulliken atomic charges">
+                <array size="3" dataType="fpx:real" units="none">-2.666300808485e-1 1.333150404243e-1 1.333150404243e-1</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken shell charges" name="total mulliken shell charges">
+                <array size="12" dataType="fpx:real" units="none">2.002019299702e0 8.329113745847e-1 8.054567160409e-1 2.829987428255e0 1.775727615054e0 2.052764721160e-2 7.104797495154e-1 6.691426719571e-2 8.929094286465e-2 7.104797495154e-1 6.691426719571e-2 8.929094286465e-2</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total dipole" name="total dipole">
+                <scalar dataType="fpx:real" units="none">1.441555208537e-15</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell dipole" name="open shell dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear dipole" name="nuclear dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total quadrupole" name="total quadrupole">
+                <scalar dataType="fpx:real" units="none">-3.323864313983e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell quadrupole" name="open shell quadrupole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear quadrupole" name="nuclear quadrupole">
+                <scalar dataType="fpx:real" units="none">3.547503627415e0</scalar>
+              </parameter>
+            </parameterList>
+            <!--scf status ok-->
+            <!--closing module scf-->
+          </module>
+          <module title="gradients" dictRef="nwchem:gradients">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <!--gradients status ok-->
+            <!--closing module gradients-->
+          </module>
+          <parameterList>
+            <parameter dictRef="nwchem:cartesian coordinates" name="cartesian coordinates">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 6.776820982561e-2 -7.047702942899e-1 0.000000000000e0 -5.518841049128e-1 7.047702942899e-1 0.000000000000e0 -5.518841049128e-1</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic charges" name="atomic charges">
+              <scalar dataType="fpx:real" units="none">8.000000000000e0</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic tags" name="atomic tags">
+              <scalar dataType="xsd:string" units="none">O </scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:group name" name="group name">
+              <scalar dataType="xsd:string" units="none">C2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total energy" name="total energy">
+              <scalar dataType="fpx:real" units="none">-7.602565978225e1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total gradient" name="total gradient">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 3.013038750820e-3 1.963403155411e-2 0.000000000000e0 -1.506519375402e-3 -1.963403155411e-2 0.000000000000e0 -1.506519375402e-3</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient norm" name="gradient norm">
+              <scalar dataType="fpx:real" units="none">2.801085492994e-2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient max" name="gradient max">
+              <scalar dataType="fpx:real" units="none">1.963403155411e-2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:cpu time" name="cpu time">
+              <scalar dataType="fpx:real" units="none">2.479620000000e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:wall time" name="wall time">
+              <scalar dataType="fpx:real" units="none">2.735619544983e-1</scalar>
+            </parameter>
+          </parameterList>
+          <!--task gradient status ok-->
+          <!--closing module task gradient-->
+        </module>
+        <module title="task energy" dictRef="nwchem:task energy">
+          <module title="scf" dictRef="nwchem:scf">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602568930718e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">1.490416771284e-1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602723545035e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">1.229047265359e-2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602724682485e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">3.693125533521e-5</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602724682485e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:one-electron energy" name="one-electron energy">
+                <scalar dataType="fpx:real" units="none">-1.232559119664e2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:two-electron energy" name="two-electron energy">
+                <scalar dataType="fpx:real" units="none">3.797511370257e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear repulsion energy" name="nuclear repulsion energy">
+                <scalar dataType="fpx:real" units="none">9.253551438929e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital symmetries" name="orbital symmetries">
+                <scalar dataType="xsd:integer" units="none">1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken atomic charges" name="total mulliken atomic charges">
+                <array size="3" dataType="fpx:real" units="none">-2.990599011748e-1 1.495299505874e-1 1.495299505874e-1</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken shell charges" name="total mulliken shell charges">
+                <array size="12" dataType="fpx:real" units="none">2.001992831592e0 8.282292596114e-1 8.095725296210e-1 2.830873885907e0 1.810145339066e0 1.824605537769e-2 6.940483640784e-1 6.922708169307e-2 8.719460364110e-2 6.940483640784e-1 6.922708169307e-2 8.719460364110e-2</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total dipole" name="total dipole">
+                <scalar dataType="fpx:real" units="none">2.740863092043e-16</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell dipole" name="open shell dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear dipole" name="nuclear dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total quadrupole" name="total quadrupole">
+                <scalar dataType="fpx:real" units="none">-3.025567511345e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell quadrupole" name="open shell quadrupole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear quadrupole" name="nuclear quadrupole">
+                <scalar dataType="fpx:real" units="none">4.132525462702e0</scalar>
+              </parameter>
+            </parameterList>
+            <!--scf status ok-->
+            <!--closing module scf-->
+          </module>
+          <parameterList>
+            <parameter dictRef="nwchem:cpu time" name="cpu time">
+              <scalar dataType="fpx:real" units="none">7.698800000000e-2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:wall time" name="wall time">
+              <scalar dataType="fpx:real" units="none">1.042439937592e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:cartesian coordinates" name="cartesian coordinates">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 3.487429485299e-2 -7.606658786988e-1 0.000000000000e0 -5.354371474265e-1 7.606658786988e-1 0.000000000000e0 -5.354371474265e-1</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic charges" name="atomic charges">
+              <scalar dataType="fpx:real" units="none">8.000000000000e0</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic tags" name="atomic tags">
+              <scalar dataType="xsd:string" units="none">O </scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:group name" name="group name">
+              <scalar dataType="xsd:string" units="none">C2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total energy" name="total energy">
+              <scalar dataType="fpx:real" units="none">-7.602724682485e1</scalar>
+            </parameter>
+          </parameterList>
+          <!--task energy status ok-->
+          <!--closing module task energy-->
+        </module>
+        <module title="task gradient" dictRef="nwchem:task gradient">
+          <module title="scf" dictRef="nwchem:scf">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602730555282e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">3.381625145358e-2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738322559e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">1.033099044846e-3</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738329434e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">9.519763177037e-6</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738329434e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:one-electron energy" name="one-electron energy">
+                <scalar dataType="fpx:real" units="none">-1.233068797705e2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:two-electron energy" name="two-electron energy">
+                <scalar dataType="fpx:real" units="none">3.799349673303e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear repulsion energy" name="nuclear repulsion energy">
+                <scalar dataType="fpx:real" units="none">9.285999743124e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital symmetries" name="orbital symmetries">
+                <scalar dataType="xsd:integer" units="none">1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken atomic charges" name="total mulliken atomic charges">
+                <array size="3" dataType="fpx:real" units="none">-2.908594767871e-1 1.454297383935e-1 1.454297383935e-1</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken shell charges" name="total mulliken shell charges">
+                <array size="12" dataType="fpx:real" units="none">2.001998259453e0 8.294587685163e-1 8.081544100019e-1 2.830474318994e0 1.801998707927e0 1.877501189444e-2 6.981325193704e-1 6.870670020895e-2 8.773104202715e-2 6.981325193704e-1 6.870670020895e-2 8.773104202715e-2</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total dipole" name="total dipole">
+                <scalar dataType="fpx:real" units="none">5.360295540768e-16</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell dipole" name="open shell dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear dipole" name="nuclear dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total quadrupole" name="total quadrupole">
+                <scalar dataType="fpx:real" units="none">-3.095341789297e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell quadrupole" name="open shell quadrupole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear quadrupole" name="nuclear quadrupole">
+                <scalar dataType="fpx:real" units="none">3.996826119859e0</scalar>
+              </parameter>
+            </parameterList>
+            <!--scf status ok-->
+            <!--closing module scf-->
+          </module>
+          <module title="gradients" dictRef="nwchem:gradients">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <!--gradients status ok-->
+            <!--closing module gradients-->
+          </module>
+          <parameterList>
+            <parameter dictRef="nwchem:cartesian coordinates" name="cartesian coordinates">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 4.275664251810e-2 -7.480726790718e-1 0.000000000000e0 -5.393783212590e-1 7.480726790718e-1 0.000000000000e0 -5.393783212590e-1</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic charges" name="atomic charges">
+              <scalar dataType="fpx:real" units="none">8.000000000000e0</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic tags" name="atomic tags">
+              <scalar dataType="xsd:string" units="none">O </scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:group name" name="group name">
+              <scalar dataType="xsd:string" units="none">C2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total energy" name="total energy">
+              <scalar dataType="fpx:real" units="none">-7.602738329434e1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total gradient" name="total gradient">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 2.498356770287e-3 -9.879976548443e-4 0.000000000000e0 -1.249178385145e-3 9.879976548443e-4 0.000000000000e0 -1.249178385145e-3</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient norm" name="gradient norm">
+              <scalar dataType="fpx:real" units="none">3.363771478478e-3</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient max" name="gradient max">
+              <scalar dataType="fpx:real" units="none">2.498356770287e-3</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:cpu time" name="cpu time">
+              <scalar dataType="fpx:real" units="none">2.449630000000e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:wall time" name="wall time">
+              <scalar dataType="fpx:real" units="none">2.717890739441e-1</scalar>
+            </parameter>
+          </parameterList>
+          <!--task gradient status ok-->
+          <!--closing module task gradient-->
+        </module>
+        <module title="task energy" dictRef="nwchem:task energy">
+          <module title="scf" dictRef="nwchem:scf">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738401556e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">7.702953026735e-3</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738861663e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">3.007638173666e-5</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738861663e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:one-electron energy" name="one-electron energy">
+                <scalar dataType="fpx:real" units="none">-1.233397079419e2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:two-electron energy" name="two-electron energy">
+                <scalar dataType="fpx:real" units="none">3.800829769367e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear repulsion energy" name="nuclear repulsion energy">
+                <scalar dataType="fpx:real" units="none">9.304021631593e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital symmetries" name="orbital symmetries">
+                <scalar dataType="xsd:integer" units="none">1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken atomic charges" name="total mulliken atomic charges">
+                <array size="3" dataType="fpx:real" units="none">-2.892742426912e-1 1.446371213456e-1 1.446371213456e-1</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken shell charges" name="total mulliken shell charges">
+                <array size="12" dataType="fpx:real" units="none">2.002006371912e0 8.288973041678e-1 8.059830870793e-1 2.832657868992e0 1.800893239786e0 1.883637075424e-2 6.992580104208e-1 6.807981322762e-2 8.802505500597e-2 6.992580104208e-1 6.807981322762e-2 8.802505500597e-2</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total dipole" name="total dipole">
+                <scalar dataType="fpx:real" units="none">1.193489751472e-15</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell dipole" name="open shell dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear dipole" name="nuclear dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total quadrupole" name="total quadrupole">
+                <scalar dataType="fpx:real" units="none">-3.088065277115e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell quadrupole" name="open shell quadrupole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear quadrupole" name="nuclear quadrupole">
+                <scalar dataType="fpx:real" units="none">3.998113851024e0</scalar>
+              </parameter>
+            </parameterList>
+            <!--scf status ok-->
+            <!--closing module scf-->
+          </module>
+          <parameterList>
+            <parameter dictRef="nwchem:cpu time" name="cpu time">
+              <scalar dataType="fpx:real" units="none">7.898800000000e-2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:wall time" name="wall time">
+              <scalar dataType="fpx:real" units="none">1.010539531708e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:cartesian coordinates" name="cartesian coordinates">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 4.057094474533e-2 -7.481931795507e-1 0.000000000000e0 -5.382854723727e-1 7.481931795507e-1 0.000000000000e0 -5.382854723727e-1</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic charges" name="atomic charges">
+              <scalar dataType="fpx:real" units="none">8.000000000000e0</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic tags" name="atomic tags">
+              <scalar dataType="xsd:string" units="none">O </scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:group name" name="group name">
+              <scalar dataType="xsd:string" units="none">C2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total energy" name="total energy">
+              <scalar dataType="fpx:real" units="none">-7.602738861663e1</scalar>
+            </parameter>
+          </parameterList>
+          <!--task energy status ok-->
+          <!--closing module task energy-->
+        </module>
+        <module title="task gradient" dictRef="nwchem:task gradient">
+          <module title="scf" dictRef="nwchem:scf">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738887902e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">1.737984618945e-3</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738911328e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">6.583905767085e-6</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738911328e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:one-electron energy" name="one-electron energy">
+                <scalar dataType="fpx:real" units="none">-1.233323031367e2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:two-electron energy" name="two-electron energy">
+                <scalar dataType="fpx:real" units="none">3.800496209128e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear repulsion energy" name="nuclear repulsion energy">
+                <scalar dataType="fpx:real" units="none">9.299951932163e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital symmetries" name="orbital symmetries">
+                <scalar dataType="xsd:integer" units="none">1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken atomic charges" name="total mulliken atomic charges">
+                <array size="3" dataType="fpx:real" units="none">-2.896296110004e-1 1.448148055002e-1 1.448148055002e-1</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken shell charges" name="total mulliken shell charges">
+                <array size="12" dataType="fpx:real" units="none">2.002004556986e0 8.290250823969e-1 8.064694825719e-1 2.832166320160e0 1.801142160480e0 1.882200840569e-2 6.990036038188e-1 6.822129607258e-2 8.796029460843e-2 6.990036038188e-1 6.822129607258e-2 8.796029460843e-2</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total dipole" name="total dipole">
+                <scalar dataType="fpx:real" units="none">5.438358097187e-16</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell dipole" name="open shell dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear dipole" name="nuclear dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total quadrupole" name="total quadrupole">
+                <scalar dataType="fpx:real" units="none">-3.089704965492e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell quadrupole" name="open shell quadrupole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear quadrupole" name="nuclear quadrupole">
+                <scalar dataType="fpx:real" units="none">3.997835216721e0</scalar>
+              </parameter>
+            </parameterList>
+            <!--scf status ok-->
+            <!--closing module scf-->
+          </module>
+          <module title="gradients" dictRef="nwchem:gradients">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <!--gradients status ok-->
+            <!--closing module gradients-->
+          </module>
+          <parameterList>
+            <parameter dictRef="nwchem:cartesian coordinates" name="cartesian coordinates">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 4.106345295427e-2 -7.481671077672e-1 0.000000000000e0 -5.385317264771e-1 7.481671077672e-1 0.000000000000e0 -5.385317264771e-1</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic charges" name="atomic charges">
+              <scalar dataType="fpx:real" units="none">8.000000000000e0</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic tags" name="atomic tags">
+              <scalar dataType="xsd:string" units="none">O </scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:group name" name="group name">
+              <scalar dataType="xsd:string" units="none">C2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total energy" name="total energy">
+              <scalar dataType="fpx:real" units="none">-7.602738911328e1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total gradient" name="total gradient">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 -5.081983284860e-6 5.564683939230e-5 0.000000000000e0 2.540991640654e-6 -5.564683939230e-5 0.000000000000e0 2.540991640654e-6</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient norm" name="gradient norm">
+              <scalar dataType="fpx:real" units="none">7.894226561132e-5</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient max" name="gradient max">
+              <scalar dataType="fpx:real" units="none">5.564683939230e-5</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:cpu time" name="cpu time">
+              <scalar dataType="fpx:real" units="none">2.439630000000e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:wall time" name="wall time">
+              <scalar dataType="fpx:real" units="none">2.689528465271e-1</scalar>
+            </parameter>
+          </parameterList>
+          <!--task gradient status ok-->
+          <!--closing module task gradient-->
+        </module>
+        <module title="task energy" dictRef="nwchem:task energy">
+          <module title="scf" dictRef="nwchem:scf">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738911941e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">2.747220476761e-4</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738912450e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital gradient norm" name="orbital gradient norm">
+                <scalar dataType="fpx:real" units="none">8.925935268984e-6</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total energy" name="total energy">
+                <scalar dataType="fpx:real" units="none">-7.602738912450e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:one-electron energy" name="one-electron energy">
+                <scalar dataType="fpx:real" units="none">-1.233317726358e2</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:two-electron energy" name="two-electron energy">
+                <scalar dataType="fpx:real" units="none">3.800476294833e1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear repulsion energy" name="nuclear repulsion energy">
+                <scalar dataType="fpx:real" units="none">9.299620562997e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:orbital symmetries" name="orbital symmetries">
+                <scalar dataType="xsd:integer" units="none">1</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken atomic charges" name="total mulliken atomic charges">
+                <array size="3" dataType="fpx:real" units="none">-2.897026865831e-1 1.448513432916e-1 1.448513432916e-1</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total mulliken shell charges" name="total mulliken shell charges">
+                <array size="12" dataType="fpx:real" units="none">2.002004469613e0 8.290176642497e-1 8.064885699296e-1 2.832162779934e0 1.801211775824e0 1.881742703352e-2 6.989665851096e-1 6.822780641947e-2 8.795426517939e-2 6.989665851096e-1 6.822780641947e-2 8.795426517939e-2</array>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total dipole" name="total dipole">
+                <scalar dataType="fpx:real" units="none">9.115971866258e-16</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell dipole" name="open shell dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear dipole" name="nuclear dipole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:total quadrupole" name="total quadrupole">
+                <scalar dataType="fpx:real" units="none">-3.089152240516e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:open shell quadrupole" name="open shell quadrupole">
+                <scalar dataType="fpx:real" units="none">0.000000000000e0</scalar>
+              </parameter>
+            </parameterList>
+            <parameterList>
+              <parameter dictRef="nwchem:nuclear quadrupole" name="nuclear quadrupole">
+                <scalar dataType="fpx:real" units="none">3.998954762440e0</scalar>
+              </parameter>
+            </parameterList>
+            <!--scf status ok-->
+            <!--closing module scf-->
+          </module>
+          <parameterList>
+            <parameter dictRef="nwchem:cpu time" name="cpu time">
+              <scalar dataType="fpx:real" units="none">7.498800000000e-2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:wall time" name="wall time">
+              <scalar dataType="fpx:real" units="none">9.921193122864e-2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:cartesian coordinates" name="cartesian coordinates">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 4.100575844315e-2 -7.482718580389e-1 0.000000000000e0 -5.385028792216e-1 7.482718580389e-1 0.000000000000e0 -5.385028792216e-1</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic charges" name="atomic charges">
+              <scalar dataType="fpx:real" units="none">8.000000000000e0</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic tags" name="atomic tags">
+              <scalar dataType="xsd:string" units="none">O </scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:group name" name="group name">
+              <scalar dataType="xsd:string" units="none">C2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total energy" name="total energy">
+              <scalar dataType="fpx:real" units="none">-7.602738912450e1</scalar>
+            </parameter>
+          </parameterList>
+          <!--task energy status ok-->
+          <!--closing module task energy-->
+        </module>
+        <module title="task gradient" dictRef="nwchem:task gradient">
+          <module title="scf" dictRef="nwchem:scf">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <!--scf status ok-->
+            <!--closing module scf-->
+          </module>
+          <module title="gradients" dictRef="nwchem:gradients">
+            <module title="load_basis" dictRef="nwchem:load_basis">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--load_basis status ok-->
+              <!--closing module load_basis-->
+            </module>
+            <module title="bas_input" dictRef="nwchem:bas_input">
+              <!--basis "aoBasis" cartesian-->
+              <!-- H                s-->
+              <!--     1.301000E+01     1.968500E-02-->
+              <!--     1.962000E+00     1.379770E-01-->
+              <!--     4.446000E-01     4.781480E-01-->
+              <!-- H                s-->
+              <!--     1.220000E-01     1.000000E+00-->
+              <!-- H                p-->
+              <!--     7.270000E-01     1.000000E+00-->
+              <!-- O                s-->
+              <!--     1.172000E+04     7.100000E-04-->
+              <!--     1.759000E+03     5.470000E-03-->
+              <!--     4.008000E+02     2.783700E-02-->
+              <!--     1.137000E+02     1.048000E-01-->
+              <!--     3.703000E+01     2.830620E-01-->
+              <!--     1.327000E+01     4.487190E-01-->
+              <!--     5.025000E+00     2.709520E-01-->
+              <!--     1.013000E+00     1.545800E-02-->
+              <!-- O                s-->
+              <!--     1.172000E+04    -1.600000E-04-->
+              <!--     1.759000E+03    -1.263000E-03-->
+              <!--     4.008000E+02    -6.267000E-03-->
+              <!--     1.137000E+02    -2.571600E-02-->
+              <!--     3.703000E+01    -7.092400E-02-->
+              <!--     1.327000E+01    -1.654110E-01-->
+              <!--     5.025000E+00    -1.169550E-01-->
+              <!--     1.013000E+00     5.573680E-01-->
+              <!-- O                s-->
+              <!--     3.023000E-01     1.000000E+00-->
+              <!-- O                p-->
+              <!--     1.770000E+01     4.301800E-02-->
+              <!--     3.854000E+00     2.289130E-01-->
+              <!--     1.046000E+00     5.087280E-01-->
+              <!-- O                p-->
+              <!--     2.753000E-01     1.000000E+00-->
+              <!-- O                d-->
+              <!--     1.185000E+00     1.000000E+00-->
+              <!--end-->
+              <!--bas_input status ok-->
+              <!--closing module bas_input-->
+            </module>
+            <!--gradients status ok-->
+            <!--closing module gradients-->
+          </module>
+          <parameterList>
+            <parameter dictRef="nwchem:cartesian coordinates" name="cartesian coordinates">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 4.100575844315e-2 -7.482718580389e-1 0.000000000000e0 -5.385028792216e-1 7.482718580389e-1 0.000000000000e0 -5.385028792216e-1</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic charges" name="atomic charges">
+              <scalar dataType="fpx:real" units="none">8.000000000000e0</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:atomic tags" name="atomic tags">
+              <scalar dataType="xsd:string" units="none">O </scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:group name" name="group name">
+              <scalar dataType="xsd:string" units="none">C2</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total energy" name="total energy">
+              <scalar dataType="fpx:real" units="none">-7.602738912450e1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:total gradient" name="total gradient">
+              <matrix rows="3" columns="3" dataType="fpx:real" units="none">0.000000000000e0 0.000000000000e0 -6.140880826067e-7 3.031793633923e-6 0.000000000000e0 3.070440384167e-7 -3.031793633923e-6 0.000000000000e0 3.070440384167e-7</matrix>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient norm" name="gradient norm">
+              <scalar dataType="fpx:real" units="none">4.353068059845e-6</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:gradient max" name="gradient max">
+              <scalar dataType="fpx:real" units="none">3.031793633923e-6</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:cpu time" name="cpu time">
+              <scalar dataType="fpx:real" units="none">1.669750000000e-1</scalar>
+            </parameter>
+          </parameterList>
+          <parameterList>
+            <parameter dictRef="nwchem:wall time" name="wall time">
+              <scalar dataType="fpx:real" units="none">1.693599224091e-1</scalar>
+            </parameter>
+          </parameterList>
+          <!--task gradient status ok-->
+          <!--closing module task gradient-->
+        </module>
+        <!--driver status ok-->
+        <!--closing module driver-->
+      </module>
+      <parameterList>
+        <parameter dictRef="nwchem:cpu time" name="cpu time">
+          <scalar dataType="fpx:real" units="none">1.553764000000e0</scalar>
+        </parameter>
+      </parameterList>
+      <parameterList>
+        <parameter dictRef="nwchem:wall time" name="wall time">
+          <scalar dataType="fpx:real" units="none">1.785219907761e0</scalar>
+        </parameter>
+      </parameterList>
+      <!--task optimize status ok-->
+      <!--closing module task optimize-->
+    </module>
+    <parameterList>
+      <parameter dictRef="nwchem:single task cpu time" name="single task cpu time">
+        <scalar dataType="fpx:real" units="none">1.553764000000e0</scalar>
+      </parameter>
+    </parameterList>
+    <parameterList>
+      <parameter dictRef="nwchem:single task wall time" name="single task wall time">
+        <scalar dataType="fpx:real" units="none">1.785470008850e0</scalar>
+      </parameter>
+    </parameterList>
+    <parameterList>
+      <parameter dictRef="nwchem:all tasks cpu time" name="all tasks cpu time">
+        <scalar dataType="fpx:real" units="none">1.559763000000e0</scalar>
+      </parameter>
+    </parameterList>
+    <parameterList>
+      <parameter dictRef="nwchem:all tasks wall time" name="all tasks wall time">
+        <scalar dataType="fpx:real" units="none">1.813162088394e0</scalar>
+      </parameter>

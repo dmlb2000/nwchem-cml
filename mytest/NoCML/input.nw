@@ -1,0 +1,65 @@
+start nmrrun
+
+charge -4
+
+memory heap 100 mb stack 1500 mb global 1500 mb
+
+geometry units angstrom
+ U     -0.0013     -0.0623      0.0257
+ O1     1.6697      0.1397      0.6447
+ O1    -1.6733     -0.2943     -0.5823
+ O     -0.0743     -3.8903      1.5787
+ O      0.3037     -2.5013     -0.1493
+ O     -0.3843     -1.6793      1.8447
+ O      0.8807     -0.8173     -2.1193
+ O      0.7087      1.3697     -1.8523
+ O      1.6817      0.6027     -3.6953
+ O     -0.6383      2.2957      0.3647
+ O     -0.8783      0.9197      2.0777
+ O     -1.6123      3.0617      2.2087
+ C     -0.0533     -2.7653      1.1217
+ C      1.1237      0.3997     -2.5963
+ C     -1.0753      2.1317      1.5697
+end
+
+basis
+ U library "Stuttgart RSC 1997 ECP"
+ O1 library O aug-cc-pvtz
+ O library "Stuttgart RLC ECP"
+ C library "Stuttgart RLC ECP"
+ N library "Stuttgart RLC ECP"
+ H library cc-pvdz
+end
+
+ecp
+ U library "Stuttgart RSC 1997 ECP"
+ O library "Stuttgart RLC ECP"
+ C library "Stuttgart RLC ECP"
+ N library "Stuttgart RLC ECP"
+end
+
+scf
+ vectors output nmr_ucomplex.movecs
+end
+
+task scf ignore
+
+dft
+ mult 1
+ vectors input nmr_ucomplex.movecs output nmr_ucomplex.movecs
+ xc xpbe96 cpbe96
+ direct
+ noio
+ iterations 200
+end
+
+task dft
+
+set giao:offset 329.5
+
+property
+ efieldgrad
+ shielding 2 2 3
+end
+
+task dft property

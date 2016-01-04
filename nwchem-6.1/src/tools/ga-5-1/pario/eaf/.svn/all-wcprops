@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/hpctools/!svn/ver/9790/branches/ga-5-1/pario/eaf
+END
+eaf.doc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/eaf/eaf.doc
+END
+eaf.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/eaf/eaf.h
+END
+eafP.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/eaf/eafP.h
+END
+test.F
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/eaf/test.F
+END
+eaf_f2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/eaf/eaf_f2c.c
+END
+eaf.fh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/pario/eaf/eaf.fh
+END
+eaf.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9790/branches/ga-5-1/pario/eaf/eaf.c
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/RandomAccess/simple
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/RandomAccess/simple/GNUmakefile
+END
+simple.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/RandomAccess/simple/simple.c
+END

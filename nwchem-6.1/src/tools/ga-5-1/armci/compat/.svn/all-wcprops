@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/compat
+END
+malloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/compat/malloc.c
+END
+dummy.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/compat/dummy.c
+END

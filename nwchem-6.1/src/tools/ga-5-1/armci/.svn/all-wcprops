@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/hpctools/!svn/ver/9901/branches/ga-5-1/armci
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9567/branches/ga-5-1/armci/config.h.in
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9614/branches/ga-5-1/armci/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9578/branches/ga-5-1/armci/Makefile.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9567/branches/ga-5-1/armci/configure.ac
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/INSTALL
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9578/branches/ga-5-1/armci/Makefile.am
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/README
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/9567/branches/ga-5-1/armci/aclocal.m4
+END

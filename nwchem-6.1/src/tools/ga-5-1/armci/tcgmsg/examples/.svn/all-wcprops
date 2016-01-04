@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples
+END
+ieeetrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/ieeetrap.c
+END
+Makefile.proto
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/Makefile.proto
+END
+mxv_dgemv.f
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/mxv_dgemv.f
+END
+mc.f
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/mc.f
+END
+md.f
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/md.f
+END
+output.f
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/output.f
+END
+prtri.f
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/prtri.f
+END
+diagon.f
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/diagon.f
+END
+runit.grid
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/runit.grid
+END
+blkdat30.f
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/blkdat30.f
+END
+integ.f
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/integ.f
+END
+cscf120lin.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/cscf120lin.h
+END
+blkdat15.f
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/blkdat15.f
+END
+blkdat60lin.f
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/blkdat60lin.f
+END
+getmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/getmem.c
+END
+trace.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/trace.out
+END
+fexit.f.proto
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/fexit.f.proto
+END
+daxpy1.s
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/daxpy1.s
+END
+daxpy.f
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/daxpy.f
+END
+cscf60.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/cscf60.h
+END
+dscal.f
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/dscal.f
+END
+blkdat120lin.f
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/blkdat120lin.f
+END
+jacobi.f
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/jacobi.f
+END
+cscf60lin.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/cscf60lin.h
+END
+ddot.f
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/ddot.f
+END
+xpix.shar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/xpix.shar
+END
+mxv_daxpy1.f
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/mxv_daxpy1.f
+END
+demo.proto
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/demo.proto
+END
+mxv_fortran.f
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/mxv_fortran.f
+END
+blkdat60.f
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/blkdat60.f
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/README
+END
+mc.input
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/mc.input
+END
+cscf240lin.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/cscf240lin.h
+END
+scf.f
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/scf.f
+END
+random.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/random.c
+END
+runit
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/runit
+END
+scfblas.f
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/scfblas.f
+END
+cscf.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/cscf.h
+END
+timer.f
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/timer.f
+END
+grid.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/grid.c
+END
+cscf30.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/cscf30.h
+END
+cscf15.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/cscf15.h
+END
+blkdat240lin.f
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/examples/blkdat240lin.f
+END

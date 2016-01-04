@@ -1,0 +1,94 @@
+module m_wcml_orbitals
+
+  use fox_m_fsys_realtypes, only: sp, dp
+  use FoX_wxml, only: xmlf_t
+
+#ifndef DUMMYLIB
+  use fox_m_fsys_format, only: str
+  use m_common_error, only: FoX_error
+  use FoX_wxml, only: xml_NewElement, xml_EndElement
+  use FoX_wxml, only: xml_AddAttribute, xml_AddCharacters, xml_AddNewline
+
+! Fix for pgi, requires this explicitly:
+  use m_wxml_overloads
+#endif
+
+  interface cmlAddMolecularOrbitals
+    module procedure cmlAddMolecularOrbitalsSP
+    module procedure cmlAddMolecularOrbitalsDP
+  end interface
+
+
+  implicit none
+  private
+
+  public :: cmlAddMolecularOrbitals
+
+contains
+
+  subroutine cmlAddMolecularOrbitalsSP(xf, nbasisfunctions, norbitals, aotypes, eigenvalues, occupancies &
+symmetries, vectors)
+    type(xmlf_t), intent(inout) :: xf
+    integer, intent(in) :: nbasisfunctions
+    integer, intent(in) :: norbitals      
+    character(len=*), intent(in)           :: aotypes(nbasisfunctions)
+    real(kind=sp), intent(in)              :: eigenvalues(norbitals)
+    real(kind=sp), intent(in)              :: occupanies(norbitals)
+    character(len=*), intent(in)           :: symmetries(norbitals)
+    real(kind=sp), intent(in)              :: vectors(nbasisfunctions,norbitals)
+
+#ifndef DUMMYLIB
+    integer          :: i
+ 
+    call cmlStartList(xf=xf, dictRef="molecularOrbitals", id="molecularOrbitals")
+    call stmAddValue(xf=xf, value=nbasisfunctions, dictRef="numberOfBasisFunctions", id="numberOfBFs")
+    call stmAddValue(xf=xf, value=norbitals, dictRef="numberOfMolecularOrbitals", id="numberOfMOS")
+    call stdAddValue(xf=xf, value=aotypes, dirtRef="atomicOrbitalDescriptions", id="aoDescriptions")
+    do i = 1, norbitals
+       call cmlStartList(xf=xf, dictRef="molecularOrbital", id="molecularOrbital")
+       call stmAddValue(xf=xf, value=i, dictRef="index", id="index")
+       call stmAddValue(xf=xf, value=eigenvalues(i:i), dictRef="orbitalEnergy", id="orbitalEnergy")
+       call stmAddValue(xf=xf, value=symmetries(i:i), dictRef="orbitalSymmetry", id="orbitalSymmetry")
+       call stmAddValue(xf=xf, value=occupancies(i:i), dictRef="orbitalOccupancy", id="orbitalOccupancy")
+       call stmAddValue(xf=xf, value=vectors(1:nbasisfunctions,i:i), dictRef="aoVector", id="aoVector")
+       call cmlEndList(xf)
+    enddo
+    call cmlEndList(xf)
+#endif
+
+  end subroutine cmlAddMolecularOrbitalsSP
+
+  subroutine cmlAddMolecularOrbitalsDP(xf, nbasisfunctions, norbitals, aotypes, eigenvalues, occupancies &
+symmetries, vectors)
+    type(xmlf_t), intent(inout) :: xf
+    integer, intent(in) :: nbasisfunctions
+    integer, intent(in) :: norbitals
+    character(len=*), intent(in)           :: aotypes(nbasisfunctions)
+    real(kind=dp), intent(in)              :: eigenvalues(norbitals)
+    real(kind=dp), intent(in)              :: occupanies(norbitals)
+    character(len=*), intent(in)           :: symmetries(norbitals)
+    real(kind=dp), intent(in)              :: vectors(nbasisfunctions,norbitals)
+
+#ifndef DUMMYLIB
+    integer          :: i
+
+    call cmlStartList(xf=xf, dictRef="molecularOrbitals", id="molecularOrbitals")
+    call stmAddValue(xf=xf, value=nbasisfunctions, dictRef="numberOfBasisFunctions", id="numberOfBFs")
+    call stmAddValue(xf=xf, value=norbitals, dictRef="numberOfMolecularOrbitals", id="numberOfMOS")
+    call stdAddValue(xf=xf, value=aotypes, dirtRef="atomicOrbitalDescriptions", id="aoDescriptions")
+    do i = 1, norbitals
+       call cmlStartList(xf=xf, dictRef="molecularOrbital", id="molecularOrbital")
+       call stmAddValue(xf=xf, value=i, dictRef="index", id="index")
+       call stmAddValue(xf=xf, value=eigenvalues(i:i), dictRef="orbitalEnergy", id="orbitalEnergy")
+       call stmAddValue(xf=xf, value=symmetries(i:i), dictRef="orbitalSymmetry", id="orbitalSymmetry")
+       call stmAddValue(xf=xf, value=occupancies(i:i), dictRef="orbitalOccupancy", id="orbitalOccupancy")
+       call stmAddValue(xf=xf, value=vectors(1:nbasisfunctions,i:i), dictRef="aoVector", id="aoVector")
+       call cmlEndList(xf)
+    enddo
+    call cmlEndList(xf)
+#endif
+
+  end subroutine cmlAddMolecularOrbitalsDP
+
+
+end module m_wcml_orbitals

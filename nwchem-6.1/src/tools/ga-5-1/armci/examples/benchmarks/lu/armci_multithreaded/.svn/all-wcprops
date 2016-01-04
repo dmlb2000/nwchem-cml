@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/examples/benchmarks/lu/armci_multithreaded
+END
+lu-block-th-nbget.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/examples/benchmarks/lu/armci_multithreaded/lu-block-th-nbget.c
+END
+lu-block-th.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/examples/benchmarks/lu/armci_multithreaded/lu-block-th.c
+END
+timing.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/examples/benchmarks/lu/armci_multithreaded/timing.c
+END

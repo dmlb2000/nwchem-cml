@@ -1,0 +1,16 @@
+echo
+start prop_h2o_run
+title h2o
+
+geometry
+ o     0.00000000     0.00000000    -0.10514653
+ h    -0.74829209     0.00000000    -0.68465287
+ h     0.74829209     0.00000000    -0.68465287
+end
+
+basis
+ * library cc-pvdz
+end
+charge 0
+
+task scf freq

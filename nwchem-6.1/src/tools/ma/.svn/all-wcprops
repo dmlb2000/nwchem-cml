@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/hpctools/!svn/ver/6429/branches/ga-4-3/ma
+END
+error.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/error.h
+END
+memcpy.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/memcpy.h
+END
+winutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/winutil.h
+END
+ma.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/ma.h
+END
+maf2c.fh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/maf2c.fh
+END
+typesf2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/6429/branches/ga-4-3/ma/typesf2c.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/GNUmakefile
+END
+maf.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/maf.F
+END
+f2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/f2c.c
+END
+MA.tex
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/MA.tex
+END
+macommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/6271/branches/ga-4-3/ma/macommon.h
+END
+scope.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/scope.h
+END
+macdecls.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/macdecls.h
+END
+string-util.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/string-util.c
+END
+testc.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/testc.c
+END
+string-util.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/string-util.h
+END
+matypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hpctools/!svn/ver/6271/branches/ga-4-3/ma/matypes.h
+END
+table.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/table.c
+END
+testf.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/testf.F
+END
+mafdecls.fh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/mafdecls.fh
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/error.c
+END
+test-inquire.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/test-inquire.c
+END
+test-coalesce.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/test-coalesce.c
+END
+MakeFile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/MakeFile
+END
+table.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/table.h
+END
+ma.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/ma.c
+END
+winf2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/ma/winf2c.h
+END

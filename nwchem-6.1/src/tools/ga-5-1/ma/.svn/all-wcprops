@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma
+END
+error.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/error.h
+END
+mafdecls.fh.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/mafdecls.fh.in
+END
+memcpy.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/memcpy.h
+END
+ma.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/ma.h
+END
+maf2c.fh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/maf2c.fh
+END
+maf.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/maf.F
+END
+f2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/f2c.c
+END
+MA.tex
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/MA.tex
+END
+macommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/macommon.h
+END
+scope.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/scope.h
+END
+macdecls.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/macdecls.h
+END
+string-util.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/string-util.c
+END
+testc.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/testc.c
+END
+string-util.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/string-util.h
+END
+table.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/table.c
+END
+testf.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/testf.F
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/error.c
+END
+test-inquire.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/test-inquire.c
+END
+test-coalesce.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/test-coalesce.c
+END
+matypes.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/matypes.h.in
+END
+table.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/table.h
+END
+ma.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/ma/ma.c
+END

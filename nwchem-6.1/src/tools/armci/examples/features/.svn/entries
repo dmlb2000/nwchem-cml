@@ -1,0 +1,83 @@
+10
+
+dir
+9931
+https://svn.pnl.gov/svn/hpctools/branches/ga-4-3/armci/examples/features
+https://svn.pnl.gov/svn/hpctools
+
+
+
+2010-10-12T15:17:20.928204Z
+7306
+3n000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91d3b526-b83d-0410-b087-f58b80922b07
+
+non-blocking
+dir
+
+symmetric_memory
+dir
+
+notification
+dir
+
+aggregation
+dir
+
+GNUmakefile
+file
+
+
+
+
+2012-04-20T00:33:06.000000Z
+7b2fa25c7b50c5d1ed9744c48ec3f566
+2007-06-20T17:42:20.000000Z
+3933
+vinod
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+676
+
+gpc
+dir
+
+concurrency
+dir
+
+proc_affinity
+dir
+

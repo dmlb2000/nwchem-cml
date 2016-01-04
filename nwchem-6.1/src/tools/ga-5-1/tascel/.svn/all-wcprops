@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/hpctools/!svn/ver/9657/branches/ga-5-1/tascel
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9655/branches/ga-5-1/tascel/config.h.in
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/hpctools/!svn/ver/9657/branches/ga-5-1/tascel/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/Makefile.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/configure.ac
+END
+NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/NOTES
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/Makefile.am
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/README
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/aclocal.m4
+END

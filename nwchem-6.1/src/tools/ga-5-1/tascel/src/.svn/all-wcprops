@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src
+END
+DenseArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/DenseArray.cc
+END
+DenseArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/DenseArray.h
+END
+TaskCollProps.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/TaskCollProps.cc
+END
+SplitQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/SplitQueue.h
+END
+UniformTaskCollectionShared.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/UniformTaskCollectionShared.cc
+END
+UniformTaskCollectionShared.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/UniformTaskCollectionShared.h
+END
+Sleep.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/Sleep.cc
+END
+UniformTaskCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/UniformTaskCollection.h
+END
+massert.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/massert.h
+END
+Timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/Timer.h
+END
+SplitQueueOpt.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/SplitQueueOpt.cc
+END
+UniformTaskCollSplitData.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/UniformTaskCollSplitData.h
+END
+SplitQueueOpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/SplitQueueOpt.h
+END
+FuncReg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/FuncReg.cc
+END
+SplitQueueData.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/SplitQueueData.cc
+END
+FuncReg.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/FuncReg.h
+END
+Comm.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/Comm.cc
+END
+UniformTaskCollectionSplit.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/UniformTaskCollectionSplit.h
+END
+Comm.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/Comm.h
+END
+SplitQueue.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/SplitQueue.cc
+END
+TaskCollProps.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/TaskCollProps.h
+END
+AccessMode.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/AccessMode.h
+END
+DataCollCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/DataCollCache.h
+END
+Sleep.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/Sleep.h
+END
+SharedQueue.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/SharedQueue.cc
+END
+SharedQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/SharedQueue.h
+END
+UniformTaskCollection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/UniformTaskCollection.cc
+END
+Counter.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/Counter.h
+END
+UniformTaskCollSplitData.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/UniformTaskCollSplitData.cc
+END
+TerminationDetector.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/TerminationDetector.cc
+END
+StealingStats.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/StealingStats.cc
+END
+TerminationDetector.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/TerminationDetector.h
+END
+DataColl.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/DataColl.h
+END
+StealingStats.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/StealingStats.h
+END
+UniformTaskCollectionSplit.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/tascel/src/UniformTaskCollectionSplit.cc
+END

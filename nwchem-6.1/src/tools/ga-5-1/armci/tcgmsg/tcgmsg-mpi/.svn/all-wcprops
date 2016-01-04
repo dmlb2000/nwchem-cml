@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/9533/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi
+END
+sizeof.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/sizeof.c
+END
+checkbyte.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/checkbyte.c
+END
+p2p.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/p2p.c
+END
+sndrcv.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/sndrcv.h
+END
+drand48.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/drand48.c
+END
+hpuxargs.f
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/hpuxargs.f
+END
+srftoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/srftoc.h
+END
+nxtval-armci.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/nxtval-armci.c
+END
+evon.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/evon.c
+END
+test_asyn.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/test_asyn.c
+END
+tcgmsgP.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/tcgmsgP.h
+END
+pbeginf.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/pbeginf.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/README
+END
+evlog.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/evlog.c
+END
+nxtval.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/nxtval.c
+END
+clustercheck.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/clustercheck.c
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/test.c
+END
+evlog.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/evlog.h
+END
+testargf.f
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/testargf.f
+END
+collect.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/collect.c
+END
+niceftn.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/niceftn.c
+END
+testf.F
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/testf.F
+END
+pfilecopy.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/pfilecopy.c
+END
+misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9533/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/misc.c
+END
+llog.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/llog.c
+END
+test_arcv.f
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hpctools/!svn/ver/9472/branches/ga-5-1/armci/tcgmsg/tcgmsg-mpi/test_arcv.f
+END

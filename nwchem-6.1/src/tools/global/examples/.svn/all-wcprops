@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hpctools/!svn/ver/7180/branches/ga-4-3/global/examples
+END
+petsc.F
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/examples/petsc.F
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/global/examples/GNUmakefile
+END

@@ -1,0 +1,6 @@
+c     
+c     $Id: dft_scaleig.fh 19696 2010-10-29 16:53:42Z d3y133 $
+c     
+      character*1 yev
+      integer nb
+      common /dft_scaleigp/ nb, yev	

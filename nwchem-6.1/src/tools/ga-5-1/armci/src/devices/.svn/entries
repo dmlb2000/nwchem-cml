@@ -1,0 +1,55 @@
+10
+
+dir
+9931
+https://svn.pnl.gov/svn/hpctools/branches/ga-5-1/armci/src/devices
+https://svn.pnl.gov/svn/hpctools
+
+
+
+2012-02-23T17:19:28.596845Z
+9793
+3n000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91d3b526-b83d-0410-b087-f58b80922b07
+
+bgml
+dir
+
+mpi-mt
+dir
+
+portals
+dir
+
+lapi
+dir
+
+gemini
+dir
+
+dcmf
+dir
+
+mpi-spawn
+dir
+
+sockets
+dir
+
+openib
+dir
+

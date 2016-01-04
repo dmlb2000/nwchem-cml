@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/RandomAccess/smp_bucket
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/RandomAccess/smp_bucket/GNUmakefile
+END
+smp_bucket.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/hpctools/!svn/ver/5484/branches/ga-4-3/examples/armci/benchmarks/RandomAccess/smp_bucket/smp_bucket.c
+END
